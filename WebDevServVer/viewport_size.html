@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <title>USBWS - ViewPort Size</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Language" content="en-US" />
+  <meta name="Description" content="StartPage for USBWS, displaying Server Version, other links and search boxes for web developers to use." />
+  <meta name="Abstract" content="StartPage for USBWS" />
+  <meta name="Keywords" content="StartPage for USBWS, Server Version, search boxes, web developers" />
+  <meta name="Distribution" content="Global" />
+  <meta name="Rating" content="General" />
+  <meta name="Owner" content="The V.I. Corporation" />
+  <meta name="Author" content="Piggaaon" />
+  <meta name="Copyright" content="Piggaaon 2013-" />
+  <link rel="shortcut icon" href="./usbws-favicon.ico" />
+  <meta name="Robots" content="index, follow, noimageindex, noimageclick, noodp" />
+  <link href="./index.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+  /* portrait */
+  @media screen and (orientation:portrait) {
+    #portrait {display: inline;}
+    #landscape {display: none;}
+  }
+  /* landscape */
+  @media screen and (orientation:landscape) {
+    #portrait {display: none;}
+    #landscape {display: inline;}
+  }
+  </style>
+</head>
+<body>
+  <div style="position:fixed; top:50%;  left:50%; transform:translate(-50%, -50%); font-size:75px; font-family:'Courier New', Courier, monospace;">
+    <p id="dimensions" style="margin:0;"></p>
+    <div id="landscape">Landscape</div>
+    <div id="portrait">Portrait</div>
+  </div>
+  <script type="text/javascript">
+  window.onresize = displayWindowSize;
+  window.onload = displayWindowSize;
+  function displayWindowSize() {
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+    //Display ViewPort Size
+    document.getElementById("dimensions").innerHTML = "W=" + myWidth + "px<br />H=" + myHeight + "px";
+  };
+  </script>
+</body>
+</html>

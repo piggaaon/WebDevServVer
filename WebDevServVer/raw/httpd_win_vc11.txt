@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Apache VC11 binaries and modules download</title>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<META NAME="robots" CONTENT="all">
+<META NAME="title" CONTENT="VC11 Download Apache 2.4 Server and Modules">
+<meta name="keywords" content="apache,module,php,mysql,perl,virus,VC11,VC10,VC9,server,forum,blog,download,support,web,host,hosting,proxy,cgi,webdav,http,help,java,log,mail,ssl,windows">
+<meta name="description" content="For (business)webmaster, developer and home-user who wants to run the always up to date Windows 32&64 VC11 binaries and modules">
+<style type="text/css">	body {font-size : 11px; font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif; color : #333333; background-color : #ffffff; margin : 23px; padding : 0; }
+table, td, p{font-size : 11px; font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;}
+h3 {font-size : 16px; color : #333333; }
+.rightaligned {text-align : right;}
+.leftaligned {text-align : left;}
+.centered {text-align : center;}
+a.mainlevel:link,a.mainlevel:visited{display:block;background:url(/images/menu.png) no-repeat;vertical-align:middle;font-size:11px;font-weight:bold;color:#525D76;text-align:left;padding-top:5px;padding-left:20px;height:20px;height:25px;width:80%;text-decoration:none;}
+a.mainlevel:hover{background-position:0px -25px;text-decoration:underline;color:#0E97CB}
+a.mainclevel:link,a.mainclevel:visited{display:block;background:url(/images/menu.png) no-repeat;vertical-align:middle;font-size:11px;font-weight:bold;color:#525D76;text-align:left;padding-top:5px;padding-left:20px;height:20px;height:25px;width:80%;text-decoration:none;background-position:0px -25px;}
+a.mainclevel:hover{background-position:0px -25px;text-decoration:underline;color:#0E97CB}
+a:visited, a:link, a:active {font-size : 11px;font-weight : normal;  color : #525D76;background-color : transparent}
+a:hover {font-size : 11px; color : #0E97CB;background-color : transparent;text-decoration : none;}
+.type0 {background-color :#B6D2D3}
+.darkborder {background-color : #999999;}
+.middleboxtitle {font-weight : bold; font-size : 16px; background-color : #ffffff;}
+.type5, .type6 {font-weight : normal; font-size : 11px; background-color : #ffffff;}
+.smalltype {font-size : 10px; }
+.type4bigger, .middleboxtitle, .type5bigger, .bigtext, .onebigger { font-weight : bold; font-size : 16px;}
+.type4, .boxtitle { font-weight : bold; font-size : 11px; color : #333333;}
+.type4small {font-weight : normal; }
+b, .searchprops, .boldtext, .type3, em {font-weight: bold;}
+.onebiggerred {font-weight : bold; font-size : 14px; color : #ff0000;  }
+.active {font-size : 11px; color : #000000; background-color : #00ff00; }
+.inactive, .error {font-size : 11px; color : #000000; background-color : #ff0000; }
+strong  {font-style: italic;font-weight:    bold;}
+i {font-style: italic;}
+.topclouds {background-color : #ffffff;
+background-image : url(/themes/smoky/images/topclouds.jpg);background-repeat: repeat-x; }
+.leftcol { background-color : #ffffff; background-image : url(/themes/smoky/images/rightbg.jpg);background-repeat: repeat-y; }
+.rightcol { background-color : #ffffff; background-image : url(/themes/smoky/images/rightbg.jpg);
+background-repeat: repeat-y; }
+.jive-header TABLE {border : 1px #B6D2D3 solid; background-color : #ffffff}
+hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170043-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-170043-6');
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Auto Ads -->
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6798050367024611",
+          enable_page_level_ads: true
+     });
+</script>
+</head>
+<body>
+<div class="jive-header">
+<table cellpadding="1" cellspacing="0" width="100%" class="topclouds">
+<tr><td ><a href="/"><img src="/apache.png" border="0" alt="logo"></a></td><td>
+<br><font  size="+2" color="#525D76"><center><b>Apache Lounge</b></center></font><font color="#525D76"><center><b>Webmasters</b></center></font><br></td><td width="24%">&nbsp;</td></tr></table></div>
+<table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="172" valign="top" align="left" class="leftcol"><br>
+<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
+<tr>
+<td  class="type5" bgcolor="#E5E5E5"><br>
+<a class=mainlevel href="/"><b>Home</b></a><br>
+<a class=mainclevel href="/download/VC11/"><b>VC11</b></a>
+</td></tr></table></td></tr></table><br><br>
+<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
+<tr>
+<td class="type5" align="left">
+<center><img src="/images/new.gif" alt="[latest]"> </center><br>
+<span class=smalltype><i>
+<b>21 January 2019</b><br>httpd 2.4.38<br><br>
+<b>21 January 2019</b><br>
+<span style="color: crimson"><span style="font-weight: bold">Plan dropping VC11 builds
+see </span></span><a href="/viewtopic.php?p=37787#37787"><b>here</b></a><br><br>
+<b>24 November 2018</b><br>Update httpd 2.4.38<br><br>
+<b>22 October 2018</b><br>httpd 2.4.38<br><br>
+<b>23 September 2018</b><br>httpd 2.4.35<br><br>
+<b>14 July 2018</b><br>httpd 2.4.34<br><br>
+<b>28 March 2018</b><br>Update httpd 2.4.33<br>
+with OpenSSL 1.0.2o<br><br>
+<b>22 March 2018</b><br>httpd 2.4.33<br><br>
+</i></span>
+</td></tr></table></td></tr></table><br><br>
+
+<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
+<tr>
+<td class="type5" align="left">
+<center><font color="#666666"><b>Keep Server Online</b><br></font></center><br>
+<span class=smalltype><i>
+If you find the downloads useful, please express your satisfaction with a donation.
+<br><br>
+A donation makes a contribution towards the effort, time and costs that's going in this site and building.<br><br>
+Thank You! Steffen<center><br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Q9LSP3QQS9TAE">
+<input type="image" src="/don.gif" border="0" name="submit" alt="PayPal">
+</form>
+<br>
+or<br><br>
+<a href="/bitcoin.html"><img src="/bc.png" border="0" alt="Bitcoin"></a>
+</center><br><br>
+Contact: <a href="/contact.html"><b>About</b></a><br><br>
+Apache Lounge is not sponsored.<br><br>Your donations will help to keep this site alive and well, and continuing building binaries.<br> <br>
+</i></span>
+</td></tr></table></td></tr></table><br><br>
+<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
+<tr >
+<td class="type5"><center>
+<!-- ApacheloungeLeft -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-6798050367024611"
+     data-ad-slot="6518563262"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br></center>
+</td>
+</tr>
+</table></td></tr></table><br>
+</td><td valign="top" width="10"><img border="0" src="/themes/smoky/images/null_px.gif" width="10" height="1"></td>
+<td valign="top" align="left" width="100%"><table border="0" cellspacing="0" cellpadding="0">
+<tr><td><br><table width="100%" border="0" cellpadding="0" cellspacing="0" ><tr><td><center><br>
+<font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 VC11 Windows Binaries and Modules</font></center><br>
+Apache Lounge has provided up-to-date Windows binaries and popular third-party modules for more than 15 years. We have hundreds of thousands of satisfied users: small and big companies as well as home users. 
+Always build with up to date dependencies and latest compilers, and tested thorough. The binaries are referenced by the  ASF, Microsoft, PHP etc. and more and more software is packaged with our binaries and modules.<br><br>
+The binaries below, are build with the  sources from ASF at httpd.apache.org, contains the latest patches and latest dependencies like zlib, openssl etc. which makes the downloads here mostly more actual then downloads from other places. <br><br>
+Build with Visual Studio® 2012 Update 5 aka VC11. VC11 has improvements, fixes and optimizations over VC10 in areas like Performance, MemoryManagement and Stability.<br><br>
+The binaries below do not run on XP and 2003. Runs on: 7 SP1, Vista SP2, 8 / 8.1, 10,  Server 2008 SP2 / R2 SP1, Server 2012 / R2, Server 2016.<br><br>
+After you have downloaded and before you attempt to install it, <b>you should make sure</b> that it is intact and has not been tampered with. Use the <a href="/viewtopic.php?p=26378"><b>PGP Signature</b></a> and/or the SHA Checksums to verify the integrity.<br><br>
+<b>Be sure</b> that you have installed Visual C++ Redistributable for Visual Studio 2012 : <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank"><b>vcredist_x64/86.exe</b></a><br>
+<center>
+<hr>
+<span style="color: red"><span style="font-weight: bold">This are the last VC11 downloads, not updated anymore.</span><br><br>
+
+<font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 binaries VC11</font><br><br>
+<a href="/viewtopic.php?p=37755"><b>Info & Changelog</b></a></center>
+<span style="color: green"><span style="font-weight: bold">Apache 2.4.38 Win64</span></span>
+<pre><img src="/images/hot.gif" alt="[Apache VC11 Binary]"> <a href="https://home.apache.org/~steffenal/VC11/binaries/httpd-2.4.38-win64-VC11.zip">httpd-2.4.38-win64-VC11.zip</a>                           21 Jan '19 16.886k 
+
+  <a href="/download/VC11/binaries/httpd-2.4.38-win64-VC11.zip.asc"><b>PGP</b></a> Signature(Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC11/binaries/httpd-2.4.38-win64-VC11.zip.txt" target="_blank" ><b>Checksums</b></a>
+</pre>
+<span style="color: green"><span style="font-weight: bold">Apache 2.4.38 Win32</span></span><br>
+<pre><img src="/images/hot.gif" alt="[Apache VC11 Binary]"> <a href="https://home.apache.org/~steffenal/VC11/binaries/httpd-2.4.38-win32-VC11.zip">httpd-2.4.38-win32-VC11.zip</a>                           21 Jan '19 15.881K 
+
+  <a href="/download/VC11/binaries/httpd-2.4.38-win32-VC11.zip.asc"><b>PGP</b></a> Signature(Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC11/binaries/httpd-2.4.38-win32-VC11.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
+<center><hr>
+<!-- ApacheloungeMiddle -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-6798050367024611"
+     data-ad-slot="4059653137"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr><br><br>
+<font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 Modules VC11</font><br><br><a href="/viewtopic.php?p=25350"><b>Changelog</b></a></center>
+<br>
+<pre>
+<img src="/images/hot.gif" alt="[VC11 modules]"> <a href="/download/VC11/modules/modules-2.4-win64-VC11.zip">modules-2.4-win64-VC11.zip</a>                             20 Oct '16   1011K
+
+  <a href="/download/VC11/modules/modules-2.4-win64-VC11.zip.asc"><b>PGP</b></a> Signature(Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC11/modules/modules-2.4-win64-VC11.zip.txt" target="_blank" ><b>Checksums</b></a>
+
+<img src="/images/hot.gif" alt="[VC Modules Win32]"> <a href="/download/VC11/modules/modules-2.4-win32-VC11.zip">modules-2.4-win32-VC11.zip</a>                             20 Oct '16    909K
+
+  <a href="/download/VC11/modules/modules-2.4-win32-VC11.zip.asc"><b>PGP</b></a> Signature(Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC11/modules/modules-2.4-win32-VC11.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
+
+The following modules are included:
+<pre>
+<img src="/images/ne.gif" alt="[mod_security2]"> mod_security-2.8.0                       <a href="/viewtopic.php?p=26328">info</a>          16 Apr '14  
+  Application firewall, intrusion detection and prevention engine.
+
+<img src="/images/ne.gif" alt="[mod_fcgid]"> mod_fcgid-2.3.9                          <a href="/viewtopic.php?p=25673">info</a>           5 Oct '13  
+  FastCGI ASF module<br>
+<img src="/images/ne.gif" alt="[dbd_modules]"> dbd_modules-1.0.6                        <a href="/viewtopic.php?p=20545">info</a>           4 Aug '13   
+  DBD Virtual Host and DBD Logging from/to an (My)SQL database<br>
+<img src="/images/ne.gif" alt="[mod_watch]"> mod_watch-4.3                            <a href="/viewtopic.php?p=20556">info</a>           8 Jul '13
+  Per Vhost Monitoring Interface. Watch and collect the bytes, requests, 
+  and documents in & out per virtual host, file owner, remote-ip address,
+  directory or location, and the server as a whole.<br>
+<img src="/images/ne.gif" alt="[mod_view]"> mod_view-2.2                             <a href="/viewtopic.php?p=20515">info</a>           8 Jul '13
+  Display head, tail, or entire contents of a file.
+  For the remote viewing of (log)files.<br>
+<img src="/images/ne.gif" alt="[mod_line_edit]"> mod_line_edit-1.0.0                      <a href="/viewtopic.php?p=20516">info</a>           4 Aug '13
+  General-purpose filter for rewriting outgoing text.<br>
+<img src="/images/ne.gif" alt="[mod_log_rotate]"> mod_log_rotate-1.00a                     <a href="/viewtopic.php?p=20517">info</a>           4 Aug '13
+  in-process server-native log rotation<br>
+<img src="/images/ne.gif" alt="[mod_xsendfile]"> mod_xsendfile-1.0-P1                     <a href="/viewtopic.php?p=20519">info</a>           4 Aug '13
+  Processes X-SENDFILE headers registered by the original output handler.
+  It is useful for processing script-output of e.g. php, perl or any cgi.<br>
+<img src="/images/ne.gif" alt="[Bandwidth Mod]"> mod_bw-0.92                              <a href="/viewtopic.php?p=20951">info</a>           4 Aug '13
+  Bandwidth limiter.<br>
+<img src="/images/ne.gif" alt="[mod_jk]"> mod_jk-1.2.41                            <a href="/viewtopic.php?p=31499">info</a>          20 Oct '16
+  Tomcat connector</pre>  
+<hr>
+<!-- ApacheloungeLink-Horz-Resp -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6798050367024611"
+     data-ad-slot="2029651188"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr>
+</td></tr></table><br>
+</td></tr>
+</table>
+</td>
+<td width="10"><img border="0" src="/themes/smoky/images/null_px.gif" width="10" height="1" alt=""></td>
+<td width="142" valign="top"><br>
+<table border="0" width="144" cellspacing="0" cellpadding="1" ><tr>&nbsp;<td >&nbsp;
+</td></tr></table><br>
+</td></tr></table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="darkborder"><tr><td>
+<table border="0" width="100%" cellspacing="0" cellpadding="3" class="topclouds"><tr><td align="center" class="nsclouds">&nbsp;
+</td></tr></table></td></tr></table>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-matched-content-rows-num="1"
+     data-matched-content-columns-num="3"
+     data-matched-content-ui-type="image_card_sidebyside"
+     data-ad-client="ca-pub-6798050367024611"
+     data-ad-slot="4995296386"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body></html>
