@@ -5,14 +5,14 @@ Apache,PHP,MariaDB,MySQL,phpMyAdmin I had installed and if there was a newer ver
 I use a version of USBWebserver that I have updated to latest Apache,PHP,
 MariaDB,phpMyAdmin while still keeping it portable.
 
-USBWebserver     : http://www.usbwebserver.net/webserver/
-Apache (Windows) : http://www.apachelounge.com/download/
-Apache (Linux)   : https://httpd.apache.org/
-PHP (Windows)    : http://windows.php.net
-PHP (Linux)      : https://www.php.net/
-MariaDB (Windows/Linux): https://downloads.mariadb.org
-MySQL (Windows/Linux)  : http://dev.mysql.com/downloads/mysql/
-phpMyAdmin       : http://www.phpmyadmin.net
+- USBWebserver     : http://www.usbwebserver.net/webserver/
+- Apache (Windows) : http://www.apachelounge.com/download/
+- Apache (Linux)   : https://httpd.apache.org/
+- PHP (Windows)    : http://windows.php.net
+- PHP (Linux)      : https://www.php.net/
+- MariaDB (Windows/Linux): https://downloads.mariadb.org
+- MySQL (Windows/Linux)  : http://dev.mysql.com/downloads/mysql/
+- phpMyAdmin       : http://www.phpmyadmin.net
 
 ------------
 ## Install Instructions:
