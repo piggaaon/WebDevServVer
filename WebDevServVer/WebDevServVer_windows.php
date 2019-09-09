@@ -1,36 +1,4 @@
 <?php
-/* Operating System (OS) - Microsoft Windows */
-
-
-
-$installed_os="";
-/* https://www.php.net/manual/en/function.php-uname.php */
-$installed_os=php_uname('v');
-/*
-https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions
-
-https://en.wikipedia.org/wiki/Windows_10_version_history
-Example: Windows 10.0 (1809) AMD64
-Windows 10 1803 x64:
-'a': Windows NT hostname 10.0 build 17763 (Windows 10) AMD64 <--- Contains all modes in the sequence "s n r v m".
-'s': Windows NT <--- Operating system name
-'n': hostname <--- Host name
-'r': 10.0 <---  Release name
-'v': build 17763 (Windows 10) <--- Version information
-'m': AMD64 <--- Machine type. eg. i386/X86/x86_64/AMD64
-
-Example: Windows 7 SP1 (6.1.7601) AMD64
-Windows 7 SP1 x64:
-'a': Windows NT hostname 6.1 build 7601 (Windows 7 Ultimate Edition Service Pack 1) AMD64 <--- Contains all modes in the sequence "s n r v m".
-'s': Windows NT <--- Operating system name
-'n': hostname <--- Host name
-'r': 6.1 <---  Release name
-'v': build 7601 (Windows 7 Ultimate Edition Service Pack 1) <--- Version information
-'m': AMD64 <--- Machine type. eg. i386/X86/x86_64/AMD64
-*/
-
-/* END - Operating System (OS) */
-
 /* Apache httpd - http://www.apachelounge.com/download/ */
   /* Get Installed Apache Version */
     function instapacheverfunc() {
@@ -217,19 +185,19 @@ Windows 7 SP1 x64:
   /* Check if phpMyAdmin Installed */
     if (!empty($_SERVER['HTTPS'])) {
       $rooturl='https://'.$_SERVER['HTTP_HOST'].'/';
-      $docfile=$rooturl."DBAdmin/phpmyadmin.css.php";
+      $docfile=$rooturl."DBAdmin/package.json";
       $context=[ 'http' => [ 'method' => 'GET' ], 'ssl' => [ 'verify_peer' => false, 'allow_self_signed'=> true ] ];
       $context=stream_context_create($context);
       $contents=file_get_contents("$docfile", false, $context);
       if (strlen($contents)){
         /* Get Installed phpMyAdmin Version */
-          function instphpmyadminverfunc() {
-            $phpmyadminreldat=glob(dirname($_SERVER["DOCUMENT_ROOT"])."/USBWS_DBAdmin/RELEASE-DATE-*",GLOB_NOSORT);
-            $phpmyadminver=substr($phpmyadminreldat[0], strlen(dirname($_SERVER["DOCUMENT_ROOT"]).'/USBWS_DBAdmin/RELEASE-DATE-'));
+          function instphpmyadminverfunc($json) {
+            $jsondechtml=json_decode($json, true);
+            $phpmyadminver=$jsondechtml['version'];
             return $phpmyadminver;
           }
-        $installed_phpmyadmin_ver=instphpmyadminverfunc();
-        $installed_phpmyadmin="phpMyAdmin ".instphpmyadminverfunc();
+        $installed_phpmyadmin_ver=instphpmyadminverfunc($contents);
+        $installed_phpmyadmin="phpMyAdmin ".instphpmyadminverfunc($contents);
       }
     }else{
       $installed_phpmyadmin="NA";
