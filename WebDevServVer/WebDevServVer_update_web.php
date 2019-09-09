@@ -21,7 +21,7 @@ if (shapeSpace_check_https()) {
     http://www.phpliveregex.com/
     https://txt2re.com/
 */
-/* Function to get Webpage with Version Information */
+/* Function to get Webpage/File with Version Information */
   include_once ("./func/func_geturl.php");
 
 /* Function to Raw Data to file */
