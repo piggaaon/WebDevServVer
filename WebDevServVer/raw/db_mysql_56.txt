@@ -9,12 +9,12 @@
         <meta name="Language" content="en">
 
     <title>MySQL :: Download MySQL Community Server</title>
-    <link rel="stylesheet" media="all" href="https://labs.mysql.com/common/css/main-20190125.min.css" />
+    <link rel="stylesheet" media="all" href="https://labs.mysql.com/common/css/main-20201221.min.css" />
             <link rel="stylesheet" href="https://labs.mysql.com/common/css/jquery-ui.min.css" />
-            <link rel="stylesheet" media="all" href="https://labs.mysql.com/common/css/page-20190125.min.css" />
+            <link rel="stylesheet" media="all" href="https://labs.mysql.com/common/css/page-20201221.min.css" />
     
     
-    <link rel="stylesheet" media="print" href="https://labs.mysql.com/common/css/print-20190125.min.css" />
+    <link rel="stylesheet" media="print" href="https://labs.mysql.com/common/css/print-20201221.min.css" />
 
     
     
@@ -22,11 +22,12 @@
     
     
     <link rel="shortcut icon" href="https://labs.mysql.com/common/themes/sakila/favicon.ico" />
+    <script async="async" type="text/javascript" src='https://consent.truste.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&cdn=1&pcookie&gtm=1' crossorigin></script>
+    <script src="https://www.oracle.com/assets/truste-oraclelib.js"></script>
     <script>(function(H){ H.className=H.className.replace(/\bno-js\b/,'js') })(document.documentElement)</script>
-    <script src="https://labs.mysql.com/common/js/site-20181120.min.js"></script>
+    <script src="https://labs.mysql.com/common/js/site-20200928.min.js"></script>
 
             <script src="https://labs.mysql.com/common/js/jquery/jquery-ui-1.11.4.min.js"></script>
-    
     
     
     <!--[if lt IE 9]>
@@ -35,7 +36,7 @@
     <![endif]-->
     </head>
 
-<body class="  dev">
+<body class="no-sidebar full-page dev gpl-downloads">
 <div class="page-wrapper">
     <header>
 
@@ -82,7 +83,7 @@
                     </li>                </ul>
             </div>
         </div>
-        <div id="sub-header">
+        <div id="sub-header" class="hide-top-nav">
             <div id="l2-nav-container">
                 <div id="l2-nav-toggle">
                     <span class="icon-three-bars"></span>
@@ -130,175 +131,49 @@
         </div>
     </header>
         <div id="page">
-                <div id="sidebar">
+                        <div role="main" id="main">
 
             
-                <div id="menu">
-                    <nav>
-                        
-
-<ul>
-        	<li class=" level1"><a  href="/downloads/windows/"><span class="icon-chevron-right"></span>MySQL on Windows</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/repo/yum/"><span class="icon-dot"></span>MySQL Yum Repository</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/repo/apt/"><span class="icon-dot"></span>MySQL APT Repository</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/repo/suse/"><span class="icon-dot"></span>MySQL SUSE Repository</a>
-    			</li>
-	        	<li class="active level1"><a class="active " href="/downloads/mysql/"><span class="icon-dot"></span>MySQL Community Server</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/cluster/"><span class="icon-dot"></span>MySQL Cluster</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/router/"><span class="icon-dot"></span>MySQL Router</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/shell/"><span class="icon-dot"></span>MySQL Shell</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/workbench/"><span class="icon-dot"></span>MySQL Workbench</a>
-    			</li>
-	        	<li class=" level1"><a  href="/downloads/connector/"><span class="icon-chevron-right"></span>MySQL Connectors</a>
-    			</li>
-	        	<li class=" last level1"><a  href="/downloads/other/"><span class="icon-dot"></span>Other Downloads</a>
-    			</li>
-	</ul>
-                    </nav>
-                    <br class="clear" />
-                </div>
-
-                
-                
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                                    </div>
-                
-                <div role="main" id="main">
-
-            
-            <div id="content">
-                                                        <h1 class="page-title" id="mainContent">Download MySQL Community Server
-                                        </h1>
-                                                
-                
-<div class="dl-license">
-
-<div class="promo12 downloads">
-    <p>MySQL open source software is provided under the
-    <a href ="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL License</a>.</p>
-    <p>OEMs, ISVs and VARs can purchase commercial licenses.</p>
+<div id="dl-page-header">
+    <span class="icon-download-thin"></span>
+    <a class="dl-page-header-link" href="/downloads/">MySQL Community Downloads</a>
 </div>
 
+<div id="dl-sub-header">
+    <a href="/downloads/" title="All Community Downloads"><span
+        class="icon-chevron-left"></span></a> MySQL Community Server
 </div>
 
-<div><p>MySQL Community Edition is a freely downloadable version of the world's most popular open source database that is supported by an active community of open source developers and enthusiasts.</p><p><a href="/downloads/cluster/">MySQL Cluster Community Edition</a> is available as a separate download. The reason for this change is so that MySQL Cluster can provide more frequent updates and support using the latest sources of MySQL Cluster Carrier Grade Edition.</p>
+<div id="content">
+    <div class="con">
+        <div class="col-2-of-3">
 
-<style>
-div#box5x {
-    width: 60%;
-    visibility: collapse;
-    height: 0;
-}
-</style>
-
-<div class="alert01" id="box5x">
-    <div class="icon">
-        <p><b>MySQL 8.0 is the most current GA release. <a href="/downloads/mysql/">Download MySQL 8.0&nbsp;&raquo;</a></b></p>
-        <p>Learn <a href="/doc/refman/8.0/en/mysql-nutshell.html">What's New in MySQL 8.0</a> and view the <a href="https://www.mysql.com/why-mysql/benchmarks/">Performance Benchmarks</a>.</p>
-    </div>
-</div>
-
-<script>
-if (window.location.pathname === '/downloads/mysql/5.5.html' ||
-    window.location.pathname === '/downloads/mysql/5.6.html' ||
-    window.location.pathname === '/downloads/mysql/5.7.html') {
-  
-    document.getElementById('box5x').style.visibility = "visible";
-    document.getElementById('box5x').style.height = "auto";
-}
-</script>
-
-<div class="alert02" style="width: 40%;"><div class="icon"><p><a href="https://www.mysql.com/support/eol-notice.html">Important Platform Support Updates</a></p></div></div>
-
-<table>
-  <tr>
-    <td class="colleft">
-      <p>Online Documentation:</p>
-
-      <ul>
-        <li><a href="/doc/refman/8.0/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/8.0/en/">Documentation</a> and <a href="/doc/relnotes/mysql/8.0/en/">Change History</a><br />
-        for the MySQL 8.0 Generally Available (GA) Release</li>
-        <li><a href="/doc/refman/5.7/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/5.7/en/">Documentation</a> and <a href="/doc/relnotes/mysql/5.7/en/">Change History</a><br />
-        for the MySQL 5.7 Generally Available (GA) Release</li>
-        <li><a href="/doc/refman/5.6/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/5.6/en/">Documentation</a> and <a href="/doc/relnotes/mysql/5.6/en/">Change History</a><br />
-        for the MySQL 5.6 Generally Available (GA) Release</li>
-        <li><a href="/doc/refman/5.5/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/5.5/en/">Documentation</a> and <a href="/doc/relnotes/mysql/5.5/en/">Change History</a><br />
-        for the MySQL 5.5 Generally Available (GA) Release</li>
-      </ul>
-    </td>
-    <td class="colright">
-      <p>Looking for previous GA versions?</p>
-
-      <ul>
-        <li><a href="/downloads/mysql/5.7.html#downloads">MySQL Community Server 5.7&nbsp;&raquo;</a></li>
-        <li><a href="/downloads/mysql/5.6.html#downloads">MySQL Community Server 5.6&nbsp;&raquo;</a></li>
-        <li><a href="/downloads/mysql/5.5.html#downloads">MySQL Community Server 5.5&nbsp;&raquo;</a></li>
-        <li><a href="https://downloads.mysql.com/archives/">Archived versions&nbsp;&raquo;</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
-<style>
-.colleft {
-  width: 400px;
-}
-.colright {
-  width: 400px;
-}
-</style></div>
-<br />
-
-<p>Please report any bugs or inconsistencies you observe to our <a href="https://bugs.mysql.com">Bugs Database</a>.<br /><strong>Thank you for your support!</strong></p>
-
-<div id="downloads">
-    <div id="tabs">
-        <ul>
-                        <li><a id="current" href="#current-tab">
-                Generally Available (GA) Releases</a></li>
-                                </ul>
-        <div id="current-tab">
-            
+     <div id="downloads">
+        <div id="tabs">
+            <ul>
+                                <li><a id="current" href="#current-tab">
+                    General Availability (GA) Releases</a></li>
+                                                                <li class="external-link"><a href="https://downloads.mysql.com/archives/community/">Archives</a></li>
+                                <li><a id="info" href="#info-tab"><img width="17" height="17" title="Product Information" src="/common/img/icons/about-24x24.png" /></a></li>
+            </ul>
+            <div id="current-tab">
+                
 
 
     <div id="ga">
-        <h1>MySQL Community Server 5.6.45 </h1>
+        <h1>MySQL Community Server 8.0.23 </h1>
 
                 
-        
                     <div class="promo14" style="float: right;">
-                <a class="version-link-ga" href="/downloads/mysql/8.0.html">Looking for the latest GA version?</a>
+                <a class="version-link-ga" href="/downloads/mysql/5.7.html">Looking for previous GA versions?</a>
             </div>
+        
         
         <form class="form03" action="/downloads/mysql/5.6.html#downloads" id="dl-ga" method="post">
         <div>
 
-                    <label for="version">Select Version:</label><br />
-                                            <select name="version" size="1" id="version-ga" class="select stacked">
-            <option value="5.7"
-                                    >5.7.27</option>
-            <option value="5.6"
-                     selected="selected"                >5.6.45</option>
-            <option value="5.5"
-                                    >5.5.62</option>
-        </select>
-
-                        <noscript>
-                <input type="submit" class="button05" id="version-btn-ga" value="Select" />
-            </noscript>
-            <br />
+                    <input type="hidden" name="version-ga" value="8.0" />
         
             <label for="os">Select Operating System:</label><br />
                             <select name="os" size="1" id="os-ga" class="select stacked">
@@ -306,16 +181,24 @@ if (window.location.pathname === '/downloads/mysql/5.5.html' ||
                                     >Select Operating System&hellip;</option>
             <option value="3"
                      selected="selected"                >Microsoft Windows</option>
+            <option value="22"
+                                    >Ubuntu Linux</option>
             <option value="21"
                                     >Debian Linux</option>
             <option value="6"
                                     >SUSE Linux Enterprise Server</option>
             <option value="31"
                                     >Red Hat Enterprise Linux / Oracle Linux</option>
+            <option value="20"
+                                    >Fedora</option>
             <option value="2"
                                     >Linux - Generic</option>
             <option value="1"
                                     >Oracle Solaris</option>
+            <option value="33"
+                                    >macOS</option>
+            <option value="12"
+                                    >FreeBSD</option>
             <option value="src"
                                     >Source Code</option>
         </select>
@@ -328,13 +211,11 @@ if (window.location.pathname === '/downloads/mysql/5.5.html' ||
         <div id="os-version-ga">
             
 
-<div>
+<div style="display: none;">
     <label for="os">Select OS Version:</label><br />
             <select name="osva" size="1" id="osva-ga" class="select stacked">
             <option value=""
                      selected="selected"                >All</option>
-            <option value="Windows (x86, 32-bit)"
-                                    >Windows (x86, 32-bit)</option>
             <option value="Windows (x86, 64-bit)"
                                     >Windows (x86, 64-bit)</option>
         </select>
@@ -349,12 +230,12 @@ if (window.location.pathname === '/downloads/mysql/5.5.html' ||
     
 
 
+
+
     <p style="font-weight: bold;">Recommended Download:</p>
-    <a href="/downloads/windows/installer/5.6.html"><img src="/img/banners/MySQLInstallerBannerV5.png"
+    <a href="/downloads/windows/installer/8.0.html"><img src="/img/banners/MySQLInstallerBannerV5.png"
         width="700" height="260" alt="Download MySQL Installer" class="banner-ga" /></a>
     <p style="font-weight: bold;">Other Downloads:</p>
-
-
 
 
 
@@ -366,33 +247,33 @@ if (window.location.pathname === '/downloads/mysql/5.5.html' ||
 <div>
     <table border="0" cellpadding="2" cellspacing="0" class="table04">
                                 <tr class="alt">
-                            <td class="col1"><b>Windows (x86, 32-bit), ZIP Archive</b></td>
-                        <td class="col3">5.6.45</td>
-            <td class="col4">331.9M</td>
+                            <td class="col1"><b>Windows (x86, 64-bit), ZIP Archive</b></td>
+                        <td class="col3">8.0.23</td>
+            <td class="col4">193.0M</td>
             <td class="col5">
-                                <div class="button03"><a href="/downloads/file/?id=487311">Download</a></div>
+                                <div class="button03"><a href="/downloads/file/?id=501136">Download</a></div>
                             </td>
         </tr>
         <tr class="alt">
-            <td class="sub-text">(mysql-5.6.45-win32.zip)</td>
+            <td class="sub-text">(mysql-8.0.23-winx64.zip)</td>
             <td class="sub-text" style="text-align:right;" colspan="4">
-                MD5: <code class="md5">e6828e4b3417be8af8239f0de0660093</code> |
-                <a class="signature-ga" href="/downloads/gpg/?file=mysql-5.6.45-win32.zip"
+                MD5: <code class="md5">a48558e14c73e30d948fa77d6d6c62ec</code> |
+                <a class="signature-ga" href="/downloads/gpg/?file=mysql-8.0.23-winx64.zip&p=23"
                     target="_blank">Signature</a>            </td>
         </tr>
                                     <tr >
-                            <td class="col1"><b>Windows (x86, 64-bit), ZIP Archive</b></td>
-                        <td class="col3">5.6.45</td>
-            <td class="col4">336.3M</td>
+                            <td class="col1"><b>Windows (x86, 64-bit), ZIP Archive<br/>Debug Binaries & Test Suite</b></td>
+                        <td class="col3">8.0.23</td>
+            <td class="col4">441.5M</td>
             <td class="col5">
-                                <div class="button03"><a href="/downloads/file/?id=487312">Download</a></div>
+                                <div class="button03"><a href="/downloads/file/?id=501137">Download</a></div>
                             </td>
         </tr>
         <tr >
-            <td class="sub-text">(mysql-5.6.45-winx64.zip)</td>
+            <td class="sub-text">(mysql-8.0.23-winx64-debug-test.zip)</td>
             <td class="sub-text" style="text-align:right;" colspan="4">
-                MD5: <code class="md5">f21c5b42c7efc4e29ee2759e986bcb51</code> |
-                <a class="signature-ga" href="/downloads/gpg/?file=mysql-5.6.45-winx64.zip"
+                MD5: <code class="md5">cfc86ceb95503c7251941a4da0ce13a6</code> |
+                <a class="signature-ga" href="/downloads/gpg/?file=mysql-8.0.23-winx64-debug-test.zip&p=23"
                     target="_blank">Signature</a>            </td>
         </tr>
                 </table>
@@ -447,33 +328,102 @@ $(function() {
     });
 });
 </script>
+            </div>
+            <div id="info-tab" style="padding: 35px;">
+                <p>MySQL Community Edition is a freely downloadable version of the world's most popular open source database that is supported by an active community of open source developers and enthusiasts.</p><p><a href="/downloads/cluster/">MySQL Cluster Community Edition</a> is available as a separate download. The reason for this change is so that MySQL Cluster can provide more frequent updates and support using the latest sources of MySQL Cluster Carrier Grade Edition.</p>
+
+<style>
+div#box5x {
+    width: 60%;
+    visibility: collapse;
+    height: 0;
+}
+</style>
+
+<div class="alert01" id="box5x">
+    <div class="icon">
+        <p><b>MySQL 8.0 is the most current GA release. <a href="/downloads/mysql/">Download MySQL 8.0&nbsp;&raquo;</a></b></p>
+        <p>Learn <a href="/doc/refman/8.0/en/mysql-nutshell.html">What's New in MySQL 8.0</a> and view the <a href="https://www.mysql.com/why-mysql/benchmarks/">Performance Benchmarks</a>.</p>
+    </div>
+</div>
+
+<script>
+if (window.location.pathname === '/downloads/mysql/5.6.html' ||
+    window.location.pathname === '/downloads/mysql/5.7.html') {
+  
+    document.getElementById('box5x').style.visibility = "visible";
+    document.getElementById('box5x').style.height = "auto";
+}
+</script>
+
+<div class="alert02" style="width: 40%;"><div class="icon"><p><a href="https://www.mysql.com/support/eol-notice.html">Important Platform Support Updates</a></p></div></div>
+
+<table>
+  <tr>
+    <td class="colleft">
+      <p>Online Documentation:</p>
+
+      <ul>
+        <li><a href="/doc/refman/8.0/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/8.0/en/">Documentation</a> and <a href="/doc/relnotes/mysql/8.0/en/">Change History</a><br />
+        for the MySQL 8.0 Generally Available (GA) Release</li>
+        <li><a href="/doc/refman/5.7/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/5.7/en/">Documentation</a> and <a href="/doc/relnotes/mysql/5.7/en/">Change History</a><br />
+        for the MySQL 5.7 Generally Available (GA) Release</li>
+        <li><a href="/doc/refman/5.6/en/installing.html">Installation Instructions</a>, <a href="/doc/refman/5.6/en/">Documentation</a> and <a href="/doc/relnotes/mysql/5.6/en/">Change History</a><br />
+        for the MySQL 5.6 Generally Available (GA) Release</li>
+      </ul>
+    </td>
+    <td class="colright">
+      <p>Looking for previous GA versions?</p>
+
+      <ul>
+        <li><a href="/downloads/mysql/5.7.html#downloads">MySQL Community Server 5.7&nbsp;&raquo;</a></li>
+        <li><a href="/downloads/mysql/5.6.html#downloads">MySQL Community Server 5.6&nbsp;&raquo;</a></li>
+        <li><a href="https://downloads.mysql.com/archives/">Archived versions&nbsp;&raquo;</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<style>
+.colleft {
+  width: 400px;
+}
+.colright {
+  width: 400px;
+}
+</style><br />
+                <p>Please report any bugs or inconsistencies you observe to our
+                <a href="https://bugs.mysql.com">Bugs Database</a>.<br /><strong>Thank you for
+                your support!</strong></p>
+            </div>
+        </div>
+    </div>
+
+    
         </div>
     </div>
 </div>
 
-
-<script>
-$(function() {
-    $("#tabs").tabs({
-        active: 0,
-        beforeLoad: function(event, ui) {
-            if (ui.tab.data("loaded")) {
-                event.preventDefault();
-                return;
-            } else {
-                ui.ajaxSettings.url += (/\?/.test(ui.ajaxSettings.url) ? "&" : "?") + 'tpl=version';
-                ui.panel.html('<div class="version-load"> &nbsp;Loading ...</div>');
+    <script>
+    $(function() {
+        $("#tabs").tabs({
+            active: 0,
+            beforeLoad: function(event, ui) {
+                if (ui.tab.data("loaded")) {
+                    event.preventDefault();
+                    return;
+                } else {
+                    ui.ajaxSettings.url += (/\?/.test(ui.ajaxSettings.url) ? "&" : "?") + 'tpl=version';
+                    ui.panel.html('<div class="version-load"> &nbsp;Loading ...</div>');
+                }
+                ui.jqXHR.success(function() {
+                    ui.tab.data("loaded", true);
+                });
             }
-            ui.jqXHR.success(function() {
-                ui.tab.data("loaded", true);
-            });
-        }
+        });
+        $("li.external-link a").unbind('click');
     });
-});
-</script>
+    </script>
 
-
-                        </div>
             
         </div>
     </div>
@@ -491,7 +441,7 @@ $(function() {
                 </div>
                 <div id="footer-contact-copyright">
                     <a href="http://www.oracle.com/" aria-label="Oracle" title="Oracle"><span class="oracle-logo"></span></a>
-                    &nbsp; &copy; 2019, Oracle Corporation and/or its affiliates
+                    &nbsp; &copy; 2021, Oracle Corporation and/or its affiliates
                 </div>
             </div>
             <div class="social-icons">
@@ -504,74 +454,76 @@ $(function() {
         </div>
         <div id="footer-links">
 
-            <div id="footer-nav"></div>
+            <div id="site-footer-links">
+                <div id="footer-nav"></div>
 
-            <div class="links">
-                <ul>
-                    <li class="top"><a href="https://www.mysql.com/products/">Products</a></li>
-                    <li><a href="https://www.mysql.com/cloud/">Oracle MySQL Cloud Service</a></li>
-                    <li><a href="https://www.mysql.com/products/enterprise/">MySQL Enterprise Edition</a></li>
-                    <li><a href="https://www.mysql.com/products/standard/">MySQL Standard Edition</a></li>
-                    <li><a href="https://www.mysql.com/products/classic/">MySQL Classic Edition</a></li>
-                    <li><a href="https://www.mysql.com/products/cluster/">MySQL Cluster CGE</a></li>
-                    <li><a href="https://www.mysql.com/oem/">MySQL Embedded (OEM/ISV)</a></li>
-                </ul>
-            </div>
+                <div class="links">
+                    <ul>
+                        <li class="top"><a href="https://www.mysql.com/products/">Products</a></li>
+                        <li><a href="https://www.mysql.com/cloud/">MySQL Database Service</a></li>
+                        <li><a href="https://www.mysql.com/products/enterprise/">MySQL Enterprise Edition</a></li>
+                        <li><a href="https://www.mysql.com/products/standard/">MySQL Standard Edition</a></li>
+                        <li><a href="https://www.mysql.com/products/classic/">MySQL Classic Edition</a></li>
+                        <li><a href="https://www.mysql.com/products/cluster/">MySQL Cluster CGE</a></li>
+                        <li><a href="https://www.mysql.com/oem/">MySQL Embedded (OEM/ISV)</a></li>
+                    </ul>
+                </div>
 
-            <div class="links">
-                <ul>
-                    <li class="top"><a href="https://www.mysql.com/services/">Services</a></li>
-                    <li><a href="https://www.mysql.com/training/">Training</a></li>
-                    <li><a href="https://www.mysql.com/certification/">Certification</a></li>
-                    <li><a href="https://www.mysql.com/consulting/">Consulting</a></li>
-                    <li><a href="https://www.mysql.com/support/">Support</a></li>
-                </ul>
-            </div>
+                <div class="links">
+                    <ul>
+                        <li class="top"><a href="https://www.mysql.com/services/">Services</a></li>
+                        <li><a href="https://www.mysql.com/training/">Training</a></li>
+                        <li><a href="https://www.mysql.com/certification/">Certification</a></li>
+                        <li><a href="https://www.mysql.com/consulting/">Consulting</a></li>
+                        <li><a href="https://www.mysql.com/support/">Support</a></li>
+                    </ul>
+                </div>
 
-            <div class="links">
-                <ul>
-                    <li class="top"><a href="https://dev.mysql.com/downloads/">Downloads</a></li>
-                    <li><a href="https://dev.mysql.com/downloads/mysql/">MySQL Community Server</a></li>
-                    <li><a href="https://dev.mysql.com/downloads/cluster/">MySQL NDB Cluster</a></li>
-                    <li><a href="https://dev.mysql.com/downloads/shell/">MySQL Shell</a></li>
-                    <li><a href="https://dev.mysql.com/downloads/router/">MySQL Router</a></li>
-                    <li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
-                </ul>
-            </div>
+                <div class="links">
+                    <ul>
+                        <li class="top"><a href="https://www.mysql.com/downloads/">Downloads</a></li>
+                        <li><a href="https://dev.mysql.com/downloads/mysql/">MySQL Community Server</a></li>
+                        <li><a href="https://dev.mysql.com/downloads/cluster/">MySQL NDB Cluster</a></li>
+                        <li><a href="https://dev.mysql.com/downloads/shell/">MySQL Shell</a></li>
+                        <li><a href="https://dev.mysql.com/downloads/router/">MySQL Router</a></li>
+                        <li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
+                    </ul>
+                </div>
 
-            <div class="links">
-                <ul>
-                    <li class="top"><a href="https://dev.mysql.com/doc/">Documentation</a></li>
-                    <li><a href="https://dev.mysql.com/doc/refman/en/">MySQL Reference Manual</a></li>
-                    <li><a href="https://dev.mysql.com/doc/workbench/en/">MySQL Workbench</a></li>
-                    <li><a href="https://dev.mysql.com/doc/index-cluster.html">MySQL NDB Cluster</a></li>
-                    <li><a href="https://dev.mysql.com/doc/index-connectors.html">MySQL Connectors</a></li>
-                    <li><a href="https://dev.mysql.com/doc/#topic">Topic Guides</a></li>
-                </ul>
-            </div>
+                <div class="links">
+                    <ul>
+                        <li class="top"><a href="https://dev.mysql.com/doc/">Documentation</a></li>
+                        <li><a href="https://dev.mysql.com/doc/refman/en/">MySQL Reference Manual</a></li>
+                        <li><a href="https://dev.mysql.com/doc/workbench/en/">MySQL Workbench</a></li>
+                        <li><a href="https://dev.mysql.com/doc/index-cluster.html">MySQL NDB Cluster</a></li>
+                        <li><a href="https://dev.mysql.com/doc/index-connectors.html">MySQL Connectors</a></li>
+                        <li><a href="https://dev.mysql.com/doc/#topic">Topic Guides</a></li>
+                    </ul>
+                </div>
 
-            <div class="links">
-                <ul>
-                    <li class="top"><a href="https://www.mysql.com/about/">About MySQL</a></li>
-                    <li><a href="https://www.mysql.com/about/contact/">Contact Us</a></li>
-                                                            <li><a href="https://www.mysql.com/buy-mysql/">How to Buy</a></li>
-                    <li><a href="https://www.mysql.com/partners/">Partners</a></li>
-                    <li><a href="https://www.mysql.com/about/jobs/">Job Opportunities</a></li>
-                    <li><a href="https://www.mysql.com/sitemap.html">Site Map</a></li>
-                </ul>
-            </div>
+                <div class="links">
+                    <ul>
+                        <li class="top"><a href="https://www.mysql.com/about/">About MySQL</a></li>
+                        <li><a href="https://www.mysql.com/about/contact/">Contact Us</a></li>
+                                                                        <li><a href="https://www.mysql.com/buy-mysql/">How to Buy</a></li>
+                        <li><a href="https://www.mysql.com/partners/">Partners</a></li>
+                        <li><a href="https://www.mysql.com/about/jobs/">Job Opportunities</a></li>
+                        <li><a href="https://www.mysql.com/sitemap.html">Site Map</a></li>
+                    </ul>
+                </div>
 
-            
+                            </div>
+
             <div id="footer-logo">
                 <a href="http://www.oracle.com/" aria-label="Oracle" title="Oracle"><span class="oracle-logo"></span></a>
-                &nbsp; &copy; 2019, Oracle Corporation and/or its affiliates
+                &nbsp; &copy; 2021, Oracle Corporation and/or its affiliates
                 <div class="footer-legal-links">
                     <a href="https://www.mysql.com/about/legal/">Legal Policies</a> |
                     <a href="http://www.oracle.com/us/legal/privacy/index.htm">Your Privacy Rights</a> |
                     <a href="http://www.oracle.com/us/legal/terms/index.html">Terms of Use</a> |
                     <a href="http://www.oracle.com/us/legal/third-party-trademarks/index.html">Trademark Policy</a> |
                     <a href="http://www.oracle.com/technetwork/community/oca-486395.html">Contributor Agreement</a> |
-                    <div id="teconsent" style="display: inline-block"><script async="async" type="text/javascript" src="//consent.truste.com/notice?domain=mysql.com&c=teconsent&text=true&language=en" crossorigin=""></script></div>
+                    <div id="teconsent"></div>
                 </div>
             </div>
 
@@ -579,7 +531,15 @@ $(function() {
     </footer>
 </div>
 
-        <script src="https://labs.mysql.com/common/js/metrics/s_code_remote.js"></script>
+            <script>
+    if ((oracle.truste.api.getGdprConsentDecision().consentDecision) &&
+            (oracle.truste.api.getGdprConsentDecision().consentDecision.indexOf(0) != -1 ||
+             oracle.truste.api.getGdprConsentDecision().consentDecision.indexOf(2) != -1) )
+    {
+        document.write('<script src="https://labs.mysql.com/common/js/metrics/s_code_remote.js"><\/script>');
+        document.write('<script type="text/javascript" async src="//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/mysql/odc.js?_ora.context=analytics:production"><\/script>');
+    }
+    </script>
 
         
     

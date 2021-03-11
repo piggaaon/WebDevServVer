@@ -82,20 +82,48 @@
     <div class="row">
         <div class="span9 series" id="series_hero">
             <div class="well">
+                <h2>MariaDB 10.5 Series <small></small></h2>
+                <p>MariaDB 10.5 is the current <strong>stable</strong> series of MariaDB. It is built on
+<a href="http://mariadb.com/kb/en/what-is-mariadb-104">MariaDB 10.4</a> with new features
+not found anywhere else.</p>
+<p>See "<a href="https://mariadb.com/kb/en/what-is-mariadb-105">What is MariaDB 10.5?</a>" for an overview.</p>
+
+                <div class="buttons">
+                    <p>
+                        <a class="btn btn-success btn-large" href="/mariadb/10.5.9/">
+                            <span class="icon-download-alt icon-white"></span> Download 10.5.9 Stable Now!</a>
+                    </p>
+                    <p>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-1059-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-1059-changelog/">Changelog</a>
+                    </p>
+                    <p>
+                        <a class="btn" href="/mariadb/+releases/">View All MariaDB Releases</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="span9 series" id="series_hero">
+            <div class="well">
                 <h2>MariaDB 10.4 Series <small></small></h2>
-                <p>MariaDB 10.4 is the current <strong>stable</strong> (GA) series of MariaDB. It is built on
+                <p>MariaDB 10.4 is a <strong>stable</strong> (GA) release series of MariaDB. It is built on
 <a href="http://mariadb.com/kb/en/what-is-mariadb-103">MariaDB 10.3</a> with new features
 not found anywhere else.</p>
 <p>See "<a href="https://mariadb.com/kb/en/what-is-mariadb-104">What is MariaDB 10.4?</a>" for an overview.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/mariadb/10.4.7/">
-                            <span class="icon-download-alt icon-white"></span> Download 10.4.7 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/mariadb/10.4.18/">
+                            <span class="icon-download-alt icon-white"></span> Download 10.4.18 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-1047-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-1047-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10418-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10418-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/mariadb/+releases/">View All MariaDB Releases</a>
@@ -111,19 +139,19 @@ not found anywhere else.</p>
         <div class="span9 series" id="series_hero">
             <div class="well">
                 <h2>MariaDB 10.3 Series <small></small></h2>
-                <p>MariaDB 10.3 is a <strong>stable</strong> release of MariaDB. It is built on
+                <p>MariaDB 10.3 is a <strong>stable</strong> (GA) release series of MariaDB. It is built on
 <a href="http://mariadb.com/kb/en/what-is-mariadb-102">MariaDB 10.2</a> with new features
 not found anywhere else.</p>
 <p>See "<a href="https://mariadb.com/kb/en/what-is-mariadb-103">What is MariaDB 10.3?</a>" for an overview.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/mariadb/10.3.17/">
-                            <span class="icon-download-alt icon-white"></span> Download 10.3.17 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/mariadb/10.3.28/">
+                            <span class="icon-download-alt icon-white"></span> Download 10.3.28 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10317-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10317-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10328-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10328-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/mariadb/+releases/">View All MariaDB Releases</a>
@@ -139,47 +167,19 @@ not found anywhere else.</p>
         <div class="span9 series" id="series_hero">
             <div class="well">
                 <h2>MariaDB 10.2 Series <small></small></h2>
-                <p>MariaDB 10.2 is a <strong>stable</strong> release of MariaDB. It is built on
+                <p>MariaDB 10.2 is a <strong>stable</strong> (GA) release series of MariaDB. It is built on
 <a href="http://mariadb.com/kb/en/what-is-mariadb-101">MariaDB 10.1</a> with features from MySQL 5.6 &amp; 5.7,
 and entirely new features not found anywhere else.</p>
 <p>See "<a href="https://mariadb.com/kb/en/what-is-mariadb-102">What is MariaDB 10.2?</a>" for an overview.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/mariadb/10.2.26/">
-                            <span class="icon-download-alt icon-white"></span> Download 10.2.26 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/mariadb/10.2.37/">
+                            <span class="icon-download-alt icon-white"></span> Download 10.2.37 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10226-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10226-changelog/">Changelog</a>
-                    </p>
-                    <p>
-                        <a class="btn" href="/mariadb/+releases/">View All MariaDB Releases</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <div class="row">
-        <div class="span9 series" id="series_hero">
-            <div class="well">
-                <h2>MariaDB 10.1 Series <small></small></h2>
-                <p>MariaDB 10.1 a <strong>stable</strong> (GA) release of MariaDB. It is built on
-<a href="http://mariadb.com/kb/en/what-is-mariadb-100">MariaDB 10.0</a> with features from MySQL 5.6 &amp; 5.7,
-and entirely new features not found anywhere else.</p>
-<p>See "<a href="https://mariadb.com/kb/en/what-is-mariadb-101">What is MariaDB 10.1?</a>" for an overview.</p>
-
-                <div class="buttons">
-                    <p>
-                        <a class="btn btn-success btn-large" href="/mariadb/10.1.41/">
-                            <span class="icon-download-alt icon-white"></span> Download 10.1.41 Stable Now!</a>
-                    </p>
-                    <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10141-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10141-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10237-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-10237-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/mariadb/+releases/">View All MariaDB Releases</a>
@@ -194,21 +194,21 @@ and entirely new features not found anywhere else.</p>
     <div class="row">
         <div class="span9 series" id="series_hero">
             <div class="well">
-                <h2>MariaDB 5.5 Series <small></small></h2>
-                <p>MariaDB 5.5 is a <strong>stable</strong> (GA) release of MariaDB. It is MariaDB 5.3 + MySQL 5.5.</p>
-<p>See "<a href="http://mariadb.com/kb/en/what-is-mariadb-55">What is MariaDB 5.5</a>" for an overview of what is in MariaDB 5.5.</p>
+                <h2>MariaDB Connector/Python 1.0 Series <small></small></h2>
+                <p>MariaDB Connector/Python is used to connect applications developed in Python to MariaDB databases. The library is LGPL licensed.</p>
+<p>See <a href="https://mariadb.com/kb/en/mariadb-connector-python/">this article</a> for more information.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/mariadb/5.5.65/">
-                            <span class="icon-download-alt icon-white"></span> Download 5.5.65 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/connector-python/1.0.6/">
+                            <span class="icon-download-alt icon-white"></span> Download 1.0.6 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/library/mariadb-5565-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-5565-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-python-106-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-python-106-changelog/">Changelog</a>
                     </p>
                     <p>
-                        <a class="btn" href="/mariadb/+releases/">View All MariaDB Releases</a>
+                        <a class="btn" href="/connector-python/+releases/">View All MariaDB Connector/Python Releases</a>
                     </p>
                 </div>
             </div>
@@ -220,43 +220,18 @@ and entirely new features not found anywhere else.</p>
     <div class="row">
         <div class="span9 series" id="series_hero">
             <div class="well">
-                <h2>MariaDB Galera Cluster 5.5 Series <small></small></h2>
-                <p>MariaDB Galera 5.5 is MariaDB 5.5 + Galera. See the <a href="http://mariadb.com/kb/en/galera/">Galera</a> section of the MariaDB Knowledge Base for more information. Yum and Apt repositories are available. The MariaDB repository configuration tool is <a href="http://downloads.mariadb.org/mariadb/repositories">here</a>.</p>
-
-                <div class="buttons">
-                    <p>
-                        <a class="btn btn-success btn-large" href="/mariadb-galera/5.5.63/">
-                            <span class="icon-download-alt icon-white"></span> Download 5.5.63 Stable Now!</a>
-                    </p>
-                    <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mgc-5563-rn/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mgc-5563-cl/">Changelog</a>
-                    </p>
-                    <p>
-                        <a class="btn" href="/mariadb-galera/+releases/">View All MariaDB Galera Cluster Releases</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <div class="row">
-        <div class="span9 series" id="series_hero">
-            <div class="well">
-                <h2>MariaDB Connector/Node.js 2.1 Series <small></small></h2>
+                <h2>MariaDB Connector/Node.js 2.5 Series <small></small></h2>
                 <p>MariaDB Connector/Node.js is used to connect applications developed on Node.js to MariaDB and MySQL databases. The library is LGPL licensed.</p>
 <p>See <a href="https://mariadb.com/kb/en/nodejs-connector/">this article</a> for more information.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/connector-nodejs/2.1.0/">
-                            <span class="icon-download-alt icon-white"></span> Download 2.1.0 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/connector-nodejs/2.5.3/">
+                            <span class="icon-download-alt icon-white"></span> Download 2.5.3 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-nodejs-210-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-nodejs-210-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-nodejs-253-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-nodejs-253-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/connector-nodejs/+releases/">View All MariaDB Connector/Node.js Releases</a>
@@ -271,44 +246,18 @@ and entirely new features not found anywhere else.</p>
     <div class="row">
         <div class="span9 series" id="series_hero">
             <div class="well">
-                <h2>MariaDB Connector/J 2.4 Series <small></small></h2>
+                <h2>MariaDB Connector/J 2.7 Series <small></small></h2>
                 <p>MariaDB Connector/J is used to connect applications developed in Java to MariaDB and MySQL databases. The client library is LGPL licensed.</p>
 <p>See <a href="https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/">this article</a> for more information</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/connector-java/2.4.3/">
-                            <span class="icon-download-alt icon-white"></span> Download 2.4.3 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/connector-java/2.7.2/">
+                            <span class="icon-download-alt icon-white"></span> Download 2.7.2 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-j-243-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-j-243-changelog/">Changelog</a>
-                    </p>
-                    <p>
-                        <a class="btn" href="/connector-java/+releases/">View All MariaDB Connector/J Releases</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <div class="row">
-        <div class="span9 series" id="series_hero">
-            <div class="well">
-                <h2>MariaDB Connector/J 1.8 Series <small></small></h2>
-                <p>MariaDB Connector/J is used to connect applications developed in Java to MariaDB and MySQL databases. The client library is LGPL licensed.</p>
-<p>See <a href="https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/">this article</a> for more information</p>
-
-                <div class="buttons">
-                    <p>
-                        <a class="btn btn-success btn-large" href="/connector-java/1.8.0/">
-                            <span class="icon-download-alt icon-white"></span> Download 1.8.0 Stable Now!</a>
-                    </p>
-                    <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-j-180-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-j-180-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-j-272-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-j-272-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/connector-java/+releases/">View All MariaDB Connector/J Releases</a>
@@ -329,64 +278,12 @@ and entirely new features not found anywhere else.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/connector-c/3.1.3/">
-                            <span class="icon-download-alt icon-white"></span> Download 3.1.3 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/connector-c/3.1.12/">
+                            <span class="icon-download-alt icon-white"></span> Download 3.1.12 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-313-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-313-changelog/">Changelog</a>
-                    </p>
-                    <p>
-                        <a class="btn" href="/connector-c/+releases/">View All MariaDB Connector/C Releases</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <div class="row">
-        <div class="span9 series" id="series_hero">
-            <div class="well">
-                <h2>MariaDB Connector/C 3.0 Series <small></small></h2>
-                <p>MariaDB Connector/C is used to connect applications developed in C/C++ to MariaDB and MySQL databases.The library is LGPL licensed.</p>
-<p>See the <a href="https://mariadb.com/kb/en/mariadb-connector-c/">MariaDB Connector/C</a> section of the MariaDB Knowledge Base for more information.</p>
-
-                <div class="buttons">
-                    <p>
-                        <a class="btn btn-success btn-large" href="/connector-c/3.0.10/">
-                            <span class="icon-download-alt icon-white"></span> Download 3.0.10 Stable Now!</a>
-                    </p>
-                    <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-3010-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-3010-changelog/">Changelog</a>
-                    </p>
-                    <p>
-                        <a class="btn" href="/connector-c/+releases/">View All MariaDB Connector/C Releases</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    <div class="row">
-        <div class="span9 series" id="series_hero">
-            <div class="well">
-                <h2>MariaDB Connector/C 2.3 Series <small></small></h2>
-                <p>MariaDB Connector/C is used to connect applications developed in C/C++ to MariaDB and MySQL databases.The library is LGPL licensed.</p>
-<p>See the <a href="https://mariadb.com/kb/en/mariadb-connector-c/">MariaDB Connector/C</a> section of the MariaDB Knowledge Base for more information.</p>
-
-                <div class="buttons">
-                    <p>
-                        <a class="btn btn-success btn-large" href="/connector-c/2.3.7/">
-                            <span class="icon-download-alt icon-white"></span> Download 2.3.7 Stable Now!</a>
-                    </p>
-                    <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-237-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-237-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-3112-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-c-3112-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/connector-c/+releases/">View All MariaDB Connector/C Releases</a>
@@ -406,12 +303,12 @@ and entirely new features not found anywhere else.</p>
 
                 <div class="buttons">
                     <p>
-                        <a class="btn btn-success btn-large" href="/connector-odbc/3.1.3/">
-                            <span class="icon-download-alt icon-white"></span> Download 3.1.3 Stable Now!</a>
+                        <a class="btn btn-success btn-large" href="/connector-odbc/3.1.11/">
+                            <span class="icon-download-alt icon-white"></span> Download 3.1.11 Stable Now!</a>
                     </p>
                     <p>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-odbc-313-release-notes/">Release Notes</a>
-                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-odbc-313-changelog/">Changelog</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-odbc-3111-release-notes/">Release Notes</a>
+                        <a class="btn btn-info" href="https://mariadb.com/kb/en/mariadb-connector-odbc-3111-changelog/">Changelog</a>
                     </p>
                     <p>
                         <a class="btn" href="/connector-odbc/+releases/">View All MariaDB Connector/ODBC Releases</a>
@@ -420,8 +317,6 @@ and entirely new features not found anywhere else.</p>
             </div>
         </div>
     </div>
-    
-    
     
     
     <!-- Extra -->

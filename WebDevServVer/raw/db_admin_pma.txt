@@ -1,11 +1,17 @@
 {
-    "date": "2019-06-04", 
-    "version": "4.9.0.1", 
+    "date": "2021-02-24", 
+    "version": "5.1.0", 
     "releases": [
         {
-            "date": "2019-06-04", 
-            "php_versions": ">=5.5,<7.3", 
-            "version": "4.9.0.1", 
+            "date": "2021-02-24", 
+            "php_versions": ">=7.1,<8.1", 
+            "version": "5.1.0", 
+            "mysql_versions": ">=5.5"
+        }, 
+        {
+            "date": "2020-10-15", 
+            "php_versions": ">=5.5,<8.0", 
+            "version": "4.9.7", 
             "mysql_versions": ">=5.5"
         }
     ]

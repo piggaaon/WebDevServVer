@@ -12,5 +12,5 @@
   $filename="./raw/db_admin_pma.txt";
   $json=file_get_contents($filename);
   $jsondechtml=json_decode($json, true);
-  $WebDevServVerarr['DB_ADMIN']['PMA']['LATEST']=$jsondechtml['releases'][0]['version'];
+  $WebDevServVerarr['DB_ADMIN']['PMA']['LATEST']=$jsondechtml['version'];
 ?>

@@ -22,7 +22,7 @@
   //https://downloads.mariadb.org/ --> Download 10.3.8 Stable Now
   $filename="./raw/db_mysql_mariadb.txt";
   $html=file_get_contents($filename);
-  $pregmatchhtml=preg_match_all("/Download (.*?) Stable Now/ms", $html, $match);
+  $pregmatchhtml=preg_match_all("/Download (.*?) Stable Now!/m", $html, $match);
   $WebDevServVerarr['DB']['MARIADB']['LATEST']=$match[1][0];
 
 ?>
