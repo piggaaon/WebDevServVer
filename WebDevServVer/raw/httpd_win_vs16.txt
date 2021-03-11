@@ -48,7 +48,7 @@ hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
   gtag('js', new Date());
   gtag('config', 'UA-170043-6');
 </script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Auto Ads -->
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
@@ -63,101 +63,102 @@ hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 <tr><td ><a href="/"><img src="/apache.png" border="0" alt="logo"></a></td><td>
 <br><font  size="+2" color="#525D76"><center><b>Apache Lounge</b></center></font><font color="#525D76"><center><b>Webmasters</b></center></font><br></td><td width="24%">&nbsp;</td></tr></table></div>
 <table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="172" valign="top" align="left" class="leftcol"><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr>
-<td  class="type5" bgcolor="#E5E5E5"><br>
-<a class=mainlevel href="/"><b>Home</b></a><br>
+<td  class="type5" bgcolor="#E5E5E5">
+<a class=mainlevel href="/"><b>Home</b></a>
 <a class=mainclevel href="/download/"><b>VS16</b></a>
 <a class=mainlevel href="/download/VC15"><b>VC15</b></a>
-<a class=mainlevel href="/download/VC14/"><b>VC14</b></a>
-<a class=mainlevel href="/download/additional/"><b>Additional</b></a><br>
-</td></tr></table></td></tr></table><br><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<a class=mainlevel href="/download/additional/"><b>Additional</b></a>
+</td></tr></table></td></tr></table><br>
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr>
 <td class="type5" align="left">
-<center><img src="/images/new.gif" alt="[latest]"> </center><br>
+<center><img src="/images/new.gif" alt="[latest]"> </center>
 <span class=smalltype><i>
-<b>26 August 2019</b><br>mod_evasive 2.0<br><br>
-<b>14 August 2019</b><br>httpd 2.4.41<br><br>
-<b>3 August 2019</b><br>New C++ Redistributable<br><br>
-<b>28 May 2019</b><br>Update httpd 2.4.39<br><br>
-<b>31 March 2019</b><br>httpd 2.4.39<br><br>
+<b>8 March 2021</b><br>New C++ Redistributable</b><br><br>
+<b>18 February 2021</b><br>httpd 2.4.46 Update</b><br><br>
+<b>14 December 2020</b><br>mod_jk update<br><br>
+<b>10 December 2020</b><br>httpd 2.4.46 Update</b><br><br>
+<b>2 October 2020</b><br>httpd 2.4.46 Update</b><br><br>
+<b>5 August 2020</b><br>httpd 2.4.46<br><br>
+<b>21 April 2020</b><br>httpd 2.4.43 Update<br><br>
 </i></span>
-</td></tr></table></td></tr></table><br><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+</td></tr></table></td></tr></table><br>
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr>
 <td class="type5" align="left">
 <center><font color="#666666"><b>Keep Server Online</b><br></font></center><br>
 <span class=smalltype><i>
-If you find the Apache Lounge, the downloads and overall help useful, please express your satisfaction with a donation.
+If you find the downloads useful, please express your satisfaction with a donation.
 <br><br><center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="Q9LSP3QQS9TAE">
 <input type="image" src="/don.gif" border="0" name="submit" alt="PayPal">
 </form>
-or<br><br>
 <a href="/bitcoin.html"><img src="/bc.png" border="0" alt="Bitcoin"></a>
-</center><br><br>
-A donation makes a contribution towards the costs, the time and effort that's going in this site and building.<br><br>
-<center>Thank You! Steffen<br><br></center>
-Apache Lounge is not sponsored.<br><br>Your donations will help to keep this site alive and well, and continuing building binaries.<br><br>
+</center><br>
+A donation makes a contribution towards the costs, the time and effort that's going in this site and building.
 </i></span>
-</td></tr></table></td></tr></table><br><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+</td></tr></table></td></tr></table><br>
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr >
 <td class="type5"><center>
-<!-- ApacheloungeLeft -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ApacheLoungeLeftResponsive -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
+     style="display:block"
      data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="6518563262"></ins>
+     data-ad-slot="8734589157"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});</script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <br></center>
 </td>
 </tr>
 </table></td></tr></table><br><br>
 </td><td valign="top" width="10"><img border="0" src="/themes/smoky/images/null_px.gif" width="10" height="1"></td>
 <td valign="top" align="left" width="100%"><table border="0" cellspacing="0" cellpadding="0">
-<tr><td><br><table width="100%" border="0" cellpadding="0" cellspacing="0" ><tr><td><center><br>
+<tr><td><br><table width="100%" border="0" cellpadding="0" cellspacing="0" ><tr><td><center>
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 VS16 Windows Binaries and Modules</font></center><br>
 Apache Lounge has provided up-to-date Windows binaries and popular third-party modules for more than 15 years. We have hundreds of thousands of satisfied users: small and big companies as well as home users. 
 Always build with up to date dependencies and latest compilers, and tested thorough. The binaries are referenced by the  ASF, Microsoft, PHP etc. and more and more software is packaged with our binaries and modules.<br><br>
 The binaries, are build with the  sources from ASF at httpd.apache.org, contains the latest patches and latest dependencies like zlib, openssl etc. which makes the downloads here mostly more actual then downloads from other places. The binaries <b>do not run</b> on XP and 2003. Runs on: 7 SP1, Vista SP2, 8 / 8.1, 10,  Server 2008 SP2 / R2 SP1, Server 2012 / R2, Server 2016/2019.<br><br>
-Build with  the latest Windows® Visual Studio C++ 2019 aka VS16. VS16 has improvements, fixes and optimizations over VC15 in areas like Performance, MemoryManagement, New standard conformance features, Code generation and Stability. For example code quality tuning and improvements done across different code generation areas for "speed". And makes more use of latest processors and supported Windows editions (win 7 and up) internal features.<br><br>
-<b>Be sure !! </b>that you have installed at least 14.22.27821.0 Visual C++ Redistributable for Visual Studio 2015-2019 : <a href="https://aka.ms/vs/16/release/VC_redist.x64.exe" target="_blank"><b>vc_redist_x64</b></a> or <a href="https://aka.ms/vs/16/release/VC_redist.x86.exe " target="_blank"><b>vc_redist_x86</b></a>,<br>
-for more info see <a href="/viewtopic.php?p=38205"><b>Redistributable</b></a>
+Build with  the latest Windows® Visual Studio C++ 2019 aka VS16. VS16 has improvements, fixes and optimizations over VC15 in areas like Performance, MemoryManagement, New standard conformance features, Code generation and Stability. For example code quality tuning and improvements done across different code generation areas for "speed". And makes more use of latest processors and supported Windows editions (win 7 and up) internal features.<br><br><font style="color: green;font-weight: bold">VS16 is backward compatible,</font> see <a href="/viewtopic.php?t=8261"><b>Compatibility VS16</b></a>. You can use a VC15/14 module inside a VS16 binary, for example PHP VC15/14 as module, <br><br>
+
+<b>Be sure</b> you installed latest 14.28.29910.0 Visual C++ Redistributable for Visual Studio 2015-2019 : <a href="https://aka.ms/vs/16/release/VC_redist.x64.exe" target="_blank"><b>vc_redist_x64</b></a> or <a href="https://aka.ms/vs/16/release/VC_redist.x86.exe " target="_blank"><b>vc_redist_x86</b></a> see <a href="/viewtopic.php?p=38205"><b>Redistributable</b></a>
 <center>
 <hr>
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 binaries VS16</font><br><br>
-<a href="/viewtopic.php?p=38419"><b>Info & Changelog</b></a></center><br>
-<span style="color: green"><span style="font-weight: bold">Apache 2.4.41 Win64</span></span>
-<pre><img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.41-win64-VS16.zip">httpd-2.4.41-win64-VS16.zip</a>                             14 Aug '19 10.094k
+<a href="/viewtopic.php?p=39400"><b>Info & Changelog</b></a></center>
+<font style="color: green;font-weight: bold">Apache 2.4.46 Win64</font>
+<pre><img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.46-win64-VS16.zip">httpd-2.4.46-win64-VS16.zip</a>                             18 Feb '21 10.324k
 
-  <a href="/download/VS16/binaries/httpd-2.4.41-win64-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.41-win64-VS16.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
-<span style="color: green"><span style="font-weight: bold">Apache 2.4.41 Win32</span></span><br>
+  <a href="/download/VS16/binaries/httpd-2.4.46-win64-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.46-win64-VS16.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
+<font style="color: green;font-weight: bold">Apache 2.4.46 Win32</font><br>
 <pre>
-<img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.41-win32-VS16.zip">httpd-2.4.41-win32-VS16.zip</a>                             14 Aug '19  9.280k 
+<img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.46-win32-VS16.zip">httpd-2.4.46-win32-VS16.zip</a>                             18 Feb '21  9.437k 
 
-  <a href="/download/VS16/binaries/httpd-2.4.41-win32-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.41-win32-VS16.zip.txt" target="_blank" ><b>Checksums</b></a>
-
+  <a href="/download/VS16/binaries/httpd-2.4.46-win32-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.46-win32-VS16.zip.txt" target="_blank" ><b>Checksums</b></a>
 </pre>
 To be sure that a download is intact and has not been tampered with, use PGP, see <a href="/viewtopic.php?p=26378"><b>PGP Signature</b></a><br><br>
-<hr><center>
-<!-- ApacheloungeMiddle -->
+<center>
+<!-- ApacheLoungeMiddleResponsive -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:inline-block;min-width:400px;max-width:970px;width:100%;height:90px"
      data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="4059653137"></ins>
+     data-ad-slot="5639035414"
+     data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<hr>
 <br><br>
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 modules VS16</font></center>
 <br><br>Mail for the PGP signatures and/or SHA checksums to verify the contents of a file.<br><br>
@@ -179,9 +180,9 @@ Application firewall, intrusion detection and prevention engine
 <br><span style="color: green"><span style="font-weight: bold">mod_jk & isapi_redirect.dll</span></span><br>
 Tomcat connector
 <pre>
-<img src="/images/hot.gif" alt="[mod_jk]"> <a href="/download/VS16/modules/mod_jk-1.2.46-win64-VS16.zip">mod_jk-1.2.46-win64-VS16.zip</a>               <a href="/viewtopic.php?p=31499">info</a>         16 Jun '19    164K 
+<img src="/images/hot.gif" alt="[mod_jk]"> <a href="/download/VS16/modules/mod_jk-1.2.48-win64-VS16.zip">mod_jk-1.2.48-win64-VS16.zip</a>               <a href="/viewtopic.php?p=31499">info</a>         14 Dec '20    167K 
 
-<img src="/images/hot.gif" alt="[mod_jk]"> <a href="/download/VS16/modules/mod_jk-1.2.46-win32-VS16.zip">mod_jk-1.2.46-win32-VS16.zip</a>                                          133K 
+<img src="/images/hot.gif" alt="[mod_jk]"> <a href="/download/VS16/modules/mod_jk-1.2.48-win32-VS16.zip">mod_jk-1.2.48-win32-VS16.zip</a>                                          137K 
 
 <img src="/images/hot.gif" alt="[isapi_redirect.dll]"> <a href="/download/VS16/modules/isapi_redirect.dll-1.2.46-VS16.zip">isapi_redirect.dll-1.2.46-VS16.zip</a>         <a href="/viewtopic.php?p=34068">info</a>                       388K 
 </pre>
@@ -200,7 +201,7 @@ in-process server-native log rotation
 
 <img src="/images/hot.gif" alt="[mod_log_rotate]"> <a href="/download/VS16/modules/mod_log_rotate-1.0.2-win32-VS16.zip">mod_log_rotate-1.0.2-win32-VS16.zip</a>                                     9K 
 </pre>
-<br><span style="color: green"><span style="font-weight: bold">dbd_modules</span></span><br>
+<br><br><span style="color: green"><span style="font-weight: bold">dbd_modules</span></span><br>
 DBD Virtual Host and DBD Logging from/to an (My)SQL database
 <pre>
 <img src="/images/hot.gif" alt="[dbd_modules]"> <a href="/download/VS16/modules/dbd_modules-1.0.6-win64-VS16.zip">dbd_modules-1.0.6-win64-VS16.zip</a>           <a href="/viewtopic.php?p=20545">info</a>         16 Jun '19     24K 
@@ -214,20 +215,11 @@ Bandwidth limiter
 
 <img src="/images/hot.gif" alt="[mod_bw]"> <a href="/download/VS16/modules/mod_bw-0.92-win32-VS16.zip">mod_bw-0.92-win32-VS16.zip</a>                                             28K 
 </pre>
-<!-- ApacheloungeLink-Horz-Resp -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="2029651188"
-     data-ad-format="link"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <br><span style="color: green"><span style="font-weight: bold">mod_view</span></span><br>
 Display head, tail, or entire contents of a file, 
 for remote viewing of (log)files.
 <pre>
-<img src="/images/hot.gif" alt="[mod_view]"> <a href="/download/VS16/modules/mod_view-2.2-win64-VS16.zip">mod_view-2.2-win64-VS16.zip</a>                <a href="/viewtopic.php?p=20515">info</a>         16 Jun '19     16K 
+<img src="/images/hot.gif" alt="[mod_view]"> <a href="/download/VS16/modules/mod_view-2.2-win64-VS16.zip">mod_view-2.2-win64-VS16.zip</a>                <a href="/viewtopic.php?p=20515">info</a>         02 Feb '20     16K 
 
 <img src="/images/hot.gif" alt="[mod_view]"> <a href="/download/VS16/modules/mod_view-2.2-win32-VS16.zip">mod_view-2.2-win32-VS16.zip</a>                                            16K 
 </pre>
@@ -243,9 +235,9 @@ directory or location, and the server as a whole.
 <br><span style="color: green"><span style="font-weight: bold">mod_evasive</span></span><br>
 Helps to prevent HTTP DoS (DDoS) attacks or server brute force attacks.
 <pre>
-<img src="/images/hot.gif" alt="[mod_evasive]"> <a href="/download/VS16/modules/mod_evasive-2.0-win64-VS16.zip">mod_evasive-2.0-win64-VS16.zip</a>             <a href="/viewtopic.php?p=31065">info</a>         26 Aug '19      8K 
+<img src="/images/hot.gif" alt="[mod_evasive]"> <a href="/download/VS16/modules/mod_evasive-2.2.0-win64-VS16.zip">mod_evasive-2.2.0-win64-VS16.zip</a>           <a href="/viewtopic.php?p=31065">info</a>         09 Feb '20     18K 
 
-<img src="/images/hot.gif" alt="[mod_evasive]"> <a href="/download/VS16/modules/mod_evasive-2.0-win32-VS16.zip">mod_evasive-2.0-win32-VS16.zip</a>                                          9K 
+<img src="/images/hot.gif" alt="[mod_evasive]"> <a href="/download/VS16/modules/mod_evasive-2.2.0-win32-VS16.zip">mod_evasive-2.2.0-win32-VS16.zip</a>                                       17K 
 </pre>
 </td></tr></table><br>
 </td></tr>
@@ -260,13 +252,15 @@ Helps to prevent HTTP DoS (DDoS) attacks or server brute force attacks.
 <table border="0" width="100%" cellspacing="0" cellpadding="3" class="topclouds"><tr><td align="center" class="nsclouds">&nbsp;
 </td></tr></table></td></tr></table>
 <center><br>
-<!-- ApacheLoungeBottom -->
+<!-- ApacheLongeBottomResponsive -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:336px;height:280px"
+     style="display:inline-block;min-width:300px;max-width:970px;width:100%"
      data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="7417839583"></ins>
+     data-ad-slot="2767946607"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </center>
 </body></html>

@@ -92,7 +92,8 @@ if (shapeSpace_check_https()) {
             <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V71_LATEST']."
             <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V72_LATEST']."
             <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V73_LATEST']."
-            <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V74_LATEST']; ?></td>
+            <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V74_LATEST']."
+            <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V80_LATEST']; ?></td>
           </tr>
           <tr>
             <td style="text-align:left;">MySQL</td>

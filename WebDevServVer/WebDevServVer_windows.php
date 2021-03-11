@@ -102,6 +102,9 @@
       }elseif (substr($installed_php, 0, 3)==7.4){
         $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V74_LATEST; //PHP 7.4.x Latest Version Number
         $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
+      }elseif (substr($installed_php, 0, 3)==8.0){
+        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V80_LATEST; //PHP 8.0.x Latest Version Number
+        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
       }else{
         $latephpverarr[0]="?.?.?";
         $latephpverarr[1]=$xmlindex->PHP_URL_DOWNLOAD_WIN; //PHP Download URL

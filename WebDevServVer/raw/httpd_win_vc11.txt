@@ -48,7 +48,7 @@ hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
   gtag('js', new Date());
   gtag('config', 'UA-170043-6');
 </script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Auto Ads -->
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
@@ -63,14 +63,14 @@ hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 <tr><td ><a href="/"><img src="/apache.png" border="0" alt="logo"></a></td><td>
 <br><font  size="+2" color="#525D76"><center><b>Apache Lounge</b></center></font><font color="#525D76"><center><b>Webmasters</b></center></font><br></td><td width="24%">&nbsp;</td></tr></table></div>
 <table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="172" valign="top" align="left" class="leftcol"><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr>
-<td  class="type5" bgcolor="#E5E5E5"><br>
-<a class=mainlevel href="/"><b>Home</b></a><br>
+<td  class="type5" bgcolor="#E5E5E5">
+<a class=mainlevel href="/"><b>Home</b></a>
 <a class=mainclevel href="/download/VC11/"><b>VC11</b></a>
 </td></tr></table></td></tr></table><br><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr>
 <td class="type5" align="left">
@@ -90,7 +90,7 @@ with OpenSSL 1.0.2o<br><br>
 </i></span>
 </td></tr></table></td></tr></table><br><br>
 
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr>
 <td class="type5" align="left">
@@ -113,15 +113,17 @@ Contact: <a href="/contact.html"><b>About</b></a><br><br>
 Apache Lounge is not sponsored.<br><br>Your donations will help to keep this site alive and well, and continuing building binaries.<br> <br>
 </i></span>
 </td></tr></table></td></tr></table><br><br>
-<table border="0" width="170" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
+<table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
 <tr >
 <td class="type5"><center>
-<!-- ApacheloungeLeft -->
+<!-- ApacheLoungeLeftResponsive -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
+     style="display:block"
      data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="6518563262"></ins>
+     data-ad-slot="8734589157"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -142,7 +144,7 @@ After you have downloaded and before you attempt to install it, <b>you should ma
 <b>Be sure</b> that you have installed Visual C++ Redistributable for Visual Studio 2012 : <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank"><b>vcredist_x64/86.exe</b></a><br>
 <center>
 <hr>
-<span style="color: red"><span style="font-weight: bold">This are the last VC11 downloads, not updated anymore.</span><br><br>
+<span style="color: red"><span style="font-weight: bold">This are the last VC11 downloads, not updated anymore.</span></span><br><br>
 
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 binaries VC11</font><br><br>
 <a href="/viewtopic.php?p=37755"><b>Info & Changelog</b></a></center>
@@ -156,11 +158,12 @@ After you have downloaded and before you attempt to install it, <b>you should ma
 
   <a href="/download/VC11/binaries/httpd-2.4.38-win32-VC11.zip.asc"><b>PGP</b></a> Signature(Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC11/binaries/httpd-2.4.38-win32-VC11.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
 <center><hr>
-<!-- ApacheloungeMiddle -->
+<!-- ApacheLoungeMiddleResponsive -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:inline-block;min-width:400px;max-width:970px;width:100%;height:90px"
      data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="4059653137"></ins>
+     data-ad-slot="5639035414"
+     data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -203,17 +206,6 @@ The following modules are included:
   Bandwidth limiter.<br>
 <img src="/images/ne.gif" alt="[mod_jk]"> mod_jk-1.2.41                            <a href="/viewtopic.php?p=31499">info</a>          20 Oct '16
   Tomcat connector</pre>  
-<hr>
-<!-- ApacheloungeLink-Horz-Resp -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6798050367024611"
-     data-ad-slot="2029651188"
-     data-ad-format="link"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<hr>
 </td></tr></table><br>
 </td></tr>
 </table>
