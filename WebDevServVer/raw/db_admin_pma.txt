@@ -1,17 +1,17 @@
 {
-    "date": "2021-02-24", 
-    "version": "5.1.0", 
+    "date": "2022-05-11", 
+    "version": "5.2.0", 
     "releases": [
         {
-            "date": "2021-02-24", 
-            "php_versions": ">=7.1,<8.1", 
-            "version": "5.1.0", 
+            "date": "2022-05-11", 
+            "php_versions": ">=7.2,<8.1", 
+            "version": "5.2.0", 
             "mysql_versions": ">=5.5"
         }, 
         {
-            "date": "2020-10-15", 
+            "date": "2022-02-11", 
             "php_versions": ">=5.5,<8.0", 
-            "version": "4.9.7", 
+            "version": "4.9.10", 
             "mysql_versions": ">=5.5"
         }
     ]

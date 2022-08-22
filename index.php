@@ -11,12 +11,12 @@ if (shapeSpace_check_https()) {
   /* If HTTPS/SSL */
   $pgfavicon="usbws-favicon-ssl.ico";
   $pglogo="usbws-logo-ssl.png";
-  $pgtitle="WebDevServVer Example Main Page (SSL)";
+  $pgtitle="USBWS Information (SSL)";
 } else {
 	/* If NOT HTTPS/SSL */
   $pgfavicon="usbws-favicon.ico";
   $pglogo="usbws-logo.png";
-  $pgtitle="WebDevServVer Example Main Page";
+  $pgtitle="USBWS Information";
 }
 ?>
 <!DOCTYPE html>
@@ -24,9 +24,9 @@ if (shapeSpace_check_https()) {
   <title><?php echo "$pgtitle"; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta http-equiv="Content-Language" content="en-US" />
-  <meta name="Description" content="Example Main Page, displaying Server Version, other links and search boxes for web developers to use." />
-  <meta name="Abstract" content="Example Main Page" />
-  <meta name="Keywords" content="Example Main Page, Server Version, search boxes, web developers" />
+  <meta name="Description" content="USBWS Information, displaying Server Version, other links and search boxes for web developers to use." />
+  <meta name="Abstract" content="USBWS Information" />
+  <meta name="Keywords" content="USBWS Information, Server Version, search boxes, web developers" />
   <meta name="Distribution" content="Global" />
   <meta name="Rating" content="General" />
   <meta name="Owner" content="Piggaaon" />
@@ -37,6 +37,47 @@ if (shapeSpace_check_https()) {
   <link href="./index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  <table class="tabledatahtp">
+    <tr>
+      <td>Server</td>
+      <td>Web</td>
+      <td>PHP</td>
+      <td>Database</td>
+      <td>DBAdmin</td>
+      <td rowspan=6 valign=top>DB Settings<div class="divider1"> </div>Username: <?php echo $mysql_user; ?><br />Password: <?php echo $mysql_pass; ?><br />Port: <?php echo $mysql_port; ?></td>
+      <td rowspan=6 valign=top>Last Check:<br /><?php echo $datechecklast; ?><div class="divider1"> </div><a href="./WebDevServVer/WebDevServVer_update_web.php">Web Update</a><br /><a href="./WebDevServVer/WebDevServVer_update_git.php">GIT Update</a></td>
+    </tr>
+    <tr>
+      <td>Installed</td>
+      <td><?php echo $installed_apache; ?></td>
+      <td><?php echo $installed_php; ?></td>
+      <td><?php echo $installed_mysql; ?></td>
+      <td><?php echo $installed_phpmyadmin; ?></td>
+    </tr>
+    <tr>
+      <td>Latest</td>
+      <td><?php echo $latest_apache; ?></td>
+      <td><?php echo $latest_php; ?></td>
+      <td><?php echo $latest_mysql; ?></td>
+      <td><?php echo $latest_phpmyadmin; ?></td>
+    </tr>
+    <tr>
+      <td>Links</td>
+      <td><a href="http://www.apachelounge.com/download/" target="_blank">Windows</a>|<a href="https://httpd.apache.org/" target="_blank">Linux</a></td>
+      <td><a href="http://windows.php.net/" target="_blank">Windows</a>|<a href="https://www.php.net/" target="_blank">Linux</a></td>
+      <td><a href="https://downloads.mariadb.org/" target="_blank">MariaDB</a>|<a href="http://dev.mysql.com/downloads/mysql/" target="_blank">MySQL</a></td>
+      <td><a href="http://www.phpmyadmin.net/" target="_blank">phpMyAdmin</a></td>
+    </tr>
+    <tr>
+      <td colspan=5 >
+        | <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/" target="_blank">HTTP Root</a> | 
+        <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/" target="_blank">HTTPS Root</a> | 
+        <a href="./WebDevServVer/phpinfo.php" target="_blank">PHPInfo</a> | 
+        <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/DBAdmin/" target="_blank">DBAdmin</a> | 
+        <a href="./WebDevServVer/viewport_size.html" target="_blank">ViewPort Size</a> |
+      </td>
+    </tr>
+  </table>
   <table class="tabblemain1">
     <tr>
       <td colspan=4>
@@ -48,63 +89,6 @@ if (shapeSpace_check_https()) {
     <tr><td colspan=4><div class="divider1"> </div></td></tr>
     <tr>
       <td style="vertical-align:top;">
-        <table class="tabledata1">
-          <tr>
-            <td><a href="./WebDevServVer/phpinfo.php" target="_blank">PHPInfo</a></td>
-            <td><a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/DBAdmin/" target="_blank">DBAdmin</a></td>
-            <td><a href="./WebDevServVer/viewport_size.html" target="_blank">ViewPort Size</a></td>
-          </tr>
-          <tr style="vertical-align:top; ">
-            <td><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/" target="_blank">HTTP Root</a></td>
-            <td><a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/" target="_blank">HTTPS Root</a></td>
-            <td><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/" target="_blank">Link</a></td>
-          </tr>
-        </table>
-        <table class="tabledata2">
-          <tr>
-            <td>Server</td>
-            <td>Installed</td>
-            <td>Latest</td>
-          </tr>
-          <tr style="vertical-align: text-top;">
-            <td style="text-align:left;">Web</td>
-            <td><?php echo $installed_apache; ?></td>
-            <td><?php echo $latest_apache; ?></td>
-          </tr>
-          <tr>
-            <td style="text-align:left;">PHP</td>
-            <td><?php echo $installed_php; ?></td>
-            <td><?php echo $latest_php; ?></td>
-          </tr>
-          <tr>
-            <td style="text-align:left;">Database</td>
-            <td><?php echo $installed_mysql; ?></td>
-            <td><?php echo $latest_mysql; ?></td>
-          </tr>
-          <tr>
-            <td style="text-align:left;">DBAdmin</td>
-            <td><?php echo $installed_phpmyadmin; ?></td>
-            <td><?php echo $latest_phpmyadmin; ?></td>
-          </tr>
-          <tr>
-            <td colspan=3>
-              Last Check: <?php echo $datechecklast; ?> (<a href="./WebDevServVer/WebDevServVer_update_web.php">UpdWeb</a>,<a href="./WebDevServVer/WebDevServVer_update_git.php">UpdGIT</a>)
-            </td>
-          </tr>
-        </table>
-        <table class="tabledata3">
-          <tr><td colspan=3 style="text-align:center;">Database Settings</td></tr>
-          <tr style="vertical-align: text-top;">
-            <td>Username</td>
-            <td>Password</td>
-            <td>Port</td>
-          </tr>
-          <tr style="vertical-align: text-top;">
-            <td><?php echo $mysql_user; ?></td>
-            <td><?php echo $mysql_pass; ?></td>
-            <td><?php echo $mysql_port; ?></td>
-          </tr>
-        </table>
         <h3>Search</h3>
         <div class="divider1"> </div>
         <table class="tablesearch">
@@ -203,11 +187,13 @@ if (shapeSpace_check_https()) {
           <tr>
             <td style="vertical-align:top;">
               Projects:<br />
-              <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
-              <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
-              <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
-              <a href="./Test/">Project1</a><br />
-              <a href="./Test/">Project1</a><br />
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/PrivFlix/">PrivFlix</a><br />
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/PrivFlix_Excess/">PrivFlix_Excess</a><br />
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/PrivFlix_DokuWiki/" target="_blank">PrivFlix_DokuWiki</a><br />
+              <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/VVCCMngr/index.php?sec=vvccmngr&pg1=main" target="_blank">VVCCMngr (SSL)</a><br />
+              <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/Piggaaon/">Piggaaon (Homepage)</a><br />
+              <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/WebDevServVer_Dev/">WebDevServVer_Dev</a><br />
+              <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/NewSites/">NewSites</a><br />
             </td>
             <td class="vr">&nbsp;</td>
             <td>&nbsp;</td>
@@ -216,8 +202,7 @@ if (shapeSpace_check_https()) {
               <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
               <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
               <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
-              <a href="./Test/">Project1</a><br />
-              <a href="./Test/">Project1</a><br />
+              <a href="https://<?php echo $_SERVER['SERVER_NAME']; ?>/Test/">Project1</a><br />
             </td>
           </tr>
           <tr>
@@ -229,11 +214,6 @@ if (shapeSpace_check_https()) {
               <div class="divider1"> </div>
               USBWS Software:<br />
               <a href="https://github.com/piggaaon/USBWS/" target="_blank">USBWS</a>, <a href="https://github.com/piggaaon/WebDevServVer/" target="_blank">WebDevServVer</a><br />
-              Apache: <a href="http://www.apachelounge.com/download/" target="_blank">Windows</a>, <a href="https://httpd.apache.org/" target="_blank">Linux</a><br />
-              PHP: <a href="http://windows.php.net/" target="_blank">Windows</a>, <a href="https://www.php.net/" target="_blank">Linux</a><br />
-              MariaDB: <a href="https://downloads.mariadb.org/" target="_blank">(Windows/Linux)</a><br />
-              MySQL: <a href="http://dev.mysql.com/downloads/mysql/" target="_blank">(Windows/Linux)</a><br />
-              DBAdmin: <a href="http://www.phpmyadmin.net/" target="_blank">phpMyAdmin</a><br />
               <div class="divider1"> </div>
               External Links:<br />
               <a href="http://output.jsbin.com/efuhud/1">window.orientation test</a><br />

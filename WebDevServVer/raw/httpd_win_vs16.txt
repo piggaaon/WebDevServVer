@@ -41,12 +41,14 @@ background-repeat: repeat-y; }
 hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170043-6"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H70690R0MN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-170043-6');
+
+  gtag('config', 'G-H70690R0MN');
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Auto Ads -->
@@ -78,14 +80,18 @@ hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 <td class="type5" align="left">
 <center><img src="/images/new.gif" alt="[latest]"> </center>
 <span class=smalltype><i>
-<b>8 March 2021</b><br>New C++ Redistributable</b><br><br>
-<b>18 February 2021</b><br>httpd 2.4.46 Update</b><br><br>
-<b>14 December 2020</b><br>mod_jk update<br><br>
-<b>10 December 2020</b><br>httpd 2.4.46 Update</b><br><br>
-<b>2 October 2020</b><br>httpd 2.4.46 Update</b><br><br>
-<b>5 August 2020</b><br>httpd 2.4.46<br><br>
-<b>21 April 2020</b><br>httpd 2.4.43 Update<br><br>
-</i></span>
+<b>03 July 2022</b><br>New C++ Redistributable<br><br>
+<b>29 June 2022</b><br>ModSecurity fix for mlogc<br><br>
+<b>24 June 2022</b><br>httpd 2.4.54 Update<br><br>
+<b>08 June 2022</b><br>httpd 2.4.54<br><br>
+<b>05 May 2022</b><br>httpd 2.4.53 Update<br><br>
+<b>17 March 2022</b><br>mod_qos added<br><br>
+<b>16 March 2022</b><br>httpd 2.4.53<br><br>
+Dropping Win32 Download,<br>see  <a href="/viewtopic.php?t=8858"><b>Drop Win32</b></a><br><br>
+Dropping VC15 Download,<br>see  <a href="/viewtopic.php?t=8859"><b>Drop VC15</b></a><br><br>
+<b>04 January 2022</b><br>VS17 Goodies <a href="/viewtopic.php?p=40834"><b>Download</b></a><br><br>
+<b>01 January 2022</b><br>ModSecurity 2.9.5<br><br>
+<b>22 December 2021</b><br>ModSecurity<br>fix for handle leak<br><br>
 </td></tr></table></td></tr></table><br>
 <table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
@@ -130,23 +136,22 @@ A donation makes a contribution towards the costs, the time and effort that's go
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 VS16 Windows Binaries and Modules</font></center><br>
 Apache Lounge has provided up-to-date Windows binaries and popular third-party modules for more than 15 years. We have hundreds of thousands of satisfied users: small and big companies as well as home users. 
 Always build with up to date dependencies and latest compilers, and tested thorough. The binaries are referenced by the  ASF, Microsoft, PHP etc. and more and more software is packaged with our binaries and modules.<br><br>
-The binaries, are build with the  sources from ASF at httpd.apache.org, contains the latest patches and latest dependencies like zlib, openssl etc. which makes the downloads here mostly more actual then downloads from other places. The binaries <b>do not run</b> on XP and 2003. Runs on: 7 SP1, Vista SP2, 8 / 8.1, 10,  Server 2008 SP2 / R2 SP1, Server 2012 / R2, Server 2016/2019.<br><br>
-Build with  the latest Windows® Visual Studio C++ 2019 aka VS16. VS16 has improvements, fixes and optimizations over VC15 in areas like Performance, MemoryManagement, New standard conformance features, Code generation and Stability. For example code quality tuning and improvements done across different code generation areas for "speed". And makes more use of latest processors and supported Windows editions (win 7 and up) internal features.<br><br><font style="color: green;font-weight: bold">VS16 is backward compatible,</font> see <a href="/viewtopic.php?t=8261"><b>Compatibility VS16</b></a>. You can use a VC15/14 module inside a VS16 binary, for example PHP VC15/14 as module, <br><br>
-
-<b>Be sure</b> you installed latest 14.28.29910.0 Visual C++ Redistributable for Visual Studio 2015-2019 : <a href="https://aka.ms/vs/16/release/VC_redist.x64.exe" target="_blank"><b>vc_redist_x64</b></a> or <a href="https://aka.ms/vs/16/release/VC_redist.x86.exe " target="_blank"><b>vc_redist_x86</b></a> see <a href="/viewtopic.php?p=38205"><b>Redistributable</b></a>
+The binaries, are build with the  sources from ASF at httpd.apache.org, contains the latest patches and latest dependencies like zlib, openssl etc. which makes the downloads here mostly more actual then downloads from other places. The binaries <b>do not run</b> on XP and 2003. Runs on: 7 SP1, Vista SP2, 8/8.1, 10, 11 Server 2008 SP2 / R2 SP1, Server 2012 / R2, Server 2016/2019/2022.<br><br>
+Build with  the latest Windows® Visual Studio C++ 2019 aka VS16. VS16 has improvements, fixes and optimizations over VC15 in areas like Performance, MemoryManagement, New standard conformance features, Code generation and Stability. For example code quality tuning and improvements done across different code generation areas for "speed". And makes more use of latest processors and supported Windows editions (win7 and up) internal features.<br><br><font style="color: green;font-weight: bold">VS16 is backward compatible,</font> see <a href="/viewtopic.php?t=8261"><b>Compatibility VS16</b></a>. You can use a VC15/14 module inside a VS16 binary, for example PHP VC15/14 as module, <br><br>
+<b>Be sure</b> you installed latest 14.32.31332 Visual C++ Redistributable Visual Studio 2015-2022 : <a href="https://aka.ms/vs/17/release/VC_redist.x64.exe" target="_blank"><b>vc_redist_x64</b></a> or <a href="https://aka.ms/vs/17/release/VC_redist.x86.exe " target="_blank"><b>vc_redist_x86</b></a> see <a href="/viewtopic.php?p=38205"><b>Redistributable</b></a>
 <center>
 <hr>
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 binaries VS16</font><br><br>
-<a href="/viewtopic.php?p=39400"><b>Info & Changelog</b></a></center>
-<font style="color: green;font-weight: bold">Apache 2.4.46 Win64</font>
-<pre><img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.46-win64-VS16.zip">httpd-2.4.46-win64-VS16.zip</a>                             18 Feb '21 10.324k
+<a href="/viewtopic.php?p=41289"><b>Info & Changelog</b></a></center>
+<font style="color: green;font-weight: bold">Apache 2.4.54 Win64</font>
+<pre><img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.54-win64-VS16.zip">httpd-2.4.54-win64-VS16.zip</a>                             24 June '22 10.641k
 
-  <a href="/download/VS16/binaries/httpd-2.4.46-win64-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.46-win64-VS16.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
-<font style="color: green;font-weight: bold">Apache 2.4.46 Win32</font><br>
+  <a href="/download/VS16/binaries/httpd-2.4.54-win64-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.54-win64-VS16.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
+<font style="color: green;font-weight: bold">Apache 2.4.54 Win32</font><br>
 <pre>
-<img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.46-win32-VS16.zip">httpd-2.4.46-win32-VS16.zip</a>                             18 Feb '21  9.437k 
+<img src="/images/hot.gif" alt="[Apache VS16 Binary]"> <a href="/download/VS16/binaries/httpd-2.4.54-win32-VS16.zip">httpd-2.4.54-win32-VS16.zip</a>                             24 June '22  9.710k 
 
-  <a href="/download/VS16/binaries/httpd-2.4.46-win32-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.46-win32-VS16.zip.txt" target="_blank" ><b>Checksums</b></a>
+  <a href="/download/VS16/binaries/httpd-2.4.54-win32-VS16.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VS16/binaries/httpd-2.4.54-win32-VS16.zip.txt" target="_blank" ><b>Checksums</b></a>
 </pre>
 To be sure that a download is intact and has not been tampered with, use PGP, see <a href="/viewtopic.php?p=26378"><b>PGP Signature</b></a><br><br>
 <center>
@@ -162,6 +167,13 @@ To be sure that a download is intact and has not been tampered with, use PGP, se
 <br><br>
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 modules VS16</font></center>
 <br><br>Mail for the PGP signatures and/or SHA checksums to verify the contents of a file.<br><br>
+<span style="color: green"><span style="font-weight: bold">mod_qos</span></span><br>
+Quality Of Service module, is able to protect your server from <br>.54
+various kinds of malicious access or attacks like  slowloris, DDos       
+<pre>
+<img src="/images/hot.gif" alt="[mod_fcgid]"> <a href="/download/VS16/modules/mod_qos-11.71-win64-VS16.zip">mod_qos-11.71-win64-VS16.zip</a>               <a href="/viewtopic.php?p=41039">info</a>         16 Mar '22  1.090K
+
+</pre>
 <span style="color: green"><span style="font-weight: bold">mod_fcgid</span></span><br>
 FastCGI ASF module                  
 <pre>
@@ -172,9 +184,9 @@ FastCGI ASF module
 <br><span style="color: green"><span style="font-weight: bold">mod_security</span></span><br>
 Application firewall, intrusion detection and prevention engine
 <pre>
-<img src="/images/hot.gif" alt="[mod_security2]"> <a href="/download/VS16/modules/mod_security-2.9.3-win64-VS16.zip">mod_security-2.9.3-win64-VS16.zip</a>          <a href="/viewtopic.php?p=35616">info</a>         16 Jun '19    626K 
+<img src="/images/hot.gif" alt="[mod_security2]"> <a href="/download/VS16/modules/mod_security-2.9.5-win64-VS16.zip">mod_security-2.9.5-win64-VS16.zip</a>          <a href="/viewtopic.php?p=35616">info</a>         29 June '22    628K 
 
-<img src="/images/hot.gif" alt="[mod_security2]"> <a href="/download/VS16/modules/mod_security-2.9.3-win32-VS16.zip">mod_security-2.9.3-win32-VS16.zip</a>                                     542K 
+<span style="color: red"><span style="font-weight: bold">  See <a href="/viewtopic.php?p=40768#40768">here</a> for a APR handle fix </span></span>
 </pre>
 
 <br><span style="color: green"><span style="font-weight: bold">mod_jk & isapi_redirect.dll</span></span><br>

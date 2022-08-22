@@ -52,10 +52,10 @@
     writefile($html,$filename);
 
   /* Get Latest  Available MariaDB Version */
-    //https://downloads.mariadb.org/
+    //https://mariadb.com/downloads/
     $url=$WebDevServVerarr['DATA_URL']['MARIADB_URL'];
     $html=geturl($url);
-    $filename="./raw/db_mysql_mariadb.txt";
+    $filename="./raw/db_mariadb.txt";
     writefile($html,$filename);
 
   /* Get Latest  Available PHP Version */

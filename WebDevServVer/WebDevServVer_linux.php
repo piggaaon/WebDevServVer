@@ -74,7 +74,7 @@ Windows 7 SP1 x64:
       if (strpos($installed_php,"5.6") !== false) {
         $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VC11_LATEST; //Apache httpd VC11 Latest Version Number
         $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHE_URL_NIX; //Apache httpd VC11 URL
-      } elseif (strpos($installed_php,'7.0') !== false || strpos($installed_php,'7.1') !== false){
+      } elseif (strpos($installed_php,"7.0") !== false || strpos($installed_php,'7.1') !== false){
         $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VC14_LATEST; //Apache httpd VC14 Latest Version Number
         $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHE_URL_NIX; //Apache httpd VC14 URL
       } elseif (strpos($installed_php,"7.2") !== false || strpos($installed_php,'7.3') !== false){
@@ -83,6 +83,9 @@ Windows 7 SP1 x64:
       } elseif (strpos($installed_php,"7.4") !== false){
         $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VC15_LATEST; //Apache httpd VC15 Latest Version Number
         $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHE_URL_NIX; //Apache httpd VC15 URL
+      }elseif (strpos($installed_php,"8.") !== false){
+        $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VS16_LATEST; //Apache httpd VS16 Latest Version Number
+        $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHEVS16_URL; //Apache httpd VS16 URL
       }else{
         $lateapacheverarr[0]="?.?.?";
         $lateapacheverarr[1]=$xmlindex->APACHE_URL; //PHP Download URL
@@ -125,11 +128,17 @@ Windows 7 SP1 x64:
         $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V73_LATEST; //PHP 7.3.x Latest Version Number
         $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_NIX; //PHP Download URL
       }elseif (substr($installed_php, 0, 3)==7.4){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V73_LATEST; //PHP 7.4.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_NIX; //PHP Download URL
+        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V74_LATEST; //PHP 7.4.x Latest Version Number
+        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
+      }elseif (substr($installed_php, 0, 3)==8.0){
+        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V80_LATEST; //PHP 8.0.x Latest Version Number
+        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
+      }elseif (substr($installed_php, 0, 3)==8.1){
+        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V81_LATEST; //PHP 8.1.x Latest Version Number
+        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
       }else{
         $latephpverarr[0]="?.?.?";
-        $latephpverarr[1]=$xmlindex->PHP_URL_DOWNLOAD_NIX; //PHP Download URL
+        $latephpverarr[1]=$xmlindex->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
       }
       return $latephpverarr;
     }

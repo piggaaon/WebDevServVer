@@ -37,7 +37,7 @@ if (shapeSpace_check_https()) {
 /* Get Latest  Available PHP Version */
   include_once ("./func/scrtlang_php.php");
 
-/* Get Latest  Available MySQl Version */
+/* Get Latest  Available MySQl and MariaDB Version */
   include_once ("./func/db_mysqli.php");
 
 /* Get Latest Available PHPMyAdmin Version */
@@ -45,7 +45,7 @@ if (shapeSpace_check_https()) {
 
 /* Get Latest Version Functions Save Information to Variables */
   $WebDevServVerarr['DATE_LAST']=time();
-
+  //echo "<pre>"; print_r($WebDevServVerarr); echo "</pre>";
 /* Create XMl DOM and Save to WebDevServVer.xml */
   include_once ("./func/data-xml.php");
 ?>
@@ -93,7 +93,9 @@ if (shapeSpace_check_https()) {
             <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V72_LATEST']."
             <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V73_LATEST']."
             <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V74_LATEST']."
-            <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V80_LATEST']; ?></td>
+            <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V80_LATEST']."
+            <br />".$WebDevServVerarr['SCRTLANG']['PHP']['V81_LATEST'];
+            ?></td>
           </tr>
           <tr>
             <td style="text-align:left;">MySQL</td>
@@ -103,7 +105,14 @@ if (shapeSpace_check_https()) {
           </tr>
           <tr>
             <td style="text-align:left;">MariaDB</td>
-            <td><?php echo $WebDevServVerarr['DB']['MARIADB']['LATEST']; ?></td>
+            <td><?php echo $WebDevServVerarr['DB']['MARIADB']['V103_LATEST']."
+            <br />".$WebDevServVerarr['DB']['MARIADB']['V104_LATEST']."
+            <br />".$WebDevServVerarr['DB']['MARIADB']['V105_LATEST']."
+            <br />".$WebDevServVerarr['DB']['MARIADB']['V106_LATEST']."
+            <br />".$WebDevServVerarr['DB']['MARIADB']['V107_LATEST']."
+            <br />".$WebDevServVerarr['DB']['MARIADB']['V108_LATEST']."
+            <br />".$WebDevServVerarr['DB']['MARIADB']['V109_LATEST'];
+            ?></td>
           </tr>
           <tr>
             <td style="text-align:left;">phpMyAdmin</td>

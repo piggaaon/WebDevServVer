@@ -41,12 +41,13 @@ background-repeat: repeat-y; }
 hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170043-6"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H70690R0MN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-170043-6');
+
+  gtag('config', 'G-H70690R0MN');
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Auto Ads -->

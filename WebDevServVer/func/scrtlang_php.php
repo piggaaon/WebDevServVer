@@ -1,5 +1,6 @@
 <?php
 /* Get Latest  Available PHP Version */
+  //https://www.phpliveregex.com/
   //http://windows.php.net/download/
   $filename="./raw/scrtlang_php.txt";
   $html=file_get_contents($filename);
@@ -32,5 +33,10 @@
   // https://windows.php.net/downloads/releases/sha256sum.txt --> php-8.0.1-nts-Win32-vs16
   $pregmatchhtml=preg_match_all("/php-8.0.(.*?)-nts-Win32-vs16/ms", $html, $match);
   $WebDevServVerarr['SCRTLANG']['PHP']['V80_LATEST']="8.0.".$match[1][1];
+  //echo "&nbsp;Retrieved Latest PHP Version: 5.6.x=$php56ver, 7.0.x=$php70ver, 7.1.x=$php71ver, 7.2.x=$php72ver, 7.3.x=$php73ver, 7.4.x=$php74ver<br />";
+  
+  // https://windows.php.net/downloads/releases/sha256sum.txt --> php-8.1.2-nts-Win32-vs16
+  $pregmatchhtml=preg_match_all("/php-8.1.(.*?)-nts-Win32-vs16/ms", $html, $match);
+  $WebDevServVerarr['SCRTLANG']['PHP']['V81_LATEST']="8.1.".$match[1][1];
   //echo "&nbsp;Retrieved Latest PHP Version: 5.6.x=$php56ver, 7.0.x=$php70ver, 7.1.x=$php71ver, 7.2.x=$php72ver, 7.3.x=$php73ver, 7.4.x=$php74ver<br />";
 ?>

@@ -31,7 +31,7 @@
       if (strpos($apachever, 'OpenSSL') !== false) {
         $apacheverx=explode("/", $apacchex[2]);
         $apachersslver=$apacheverx[1];
-        $apachersslvertxt="<br />OpenSSL $apachersslver";
+        $apachersslvertxt=" (OpenSSL $apachersslver)";
         $apacherssl=1;
       }
       /* Complete Compiled Apache Version*/
@@ -105,6 +105,9 @@
       }elseif (substr($installed_php, 0, 3)==8.0){
         $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V80_LATEST; //PHP 8.0.x Latest Version Number
         $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
+      }elseif (substr($installed_php, 0, 3)==8.1){
+        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V81_LATEST; //PHP 8.1.x Latest Version Number
+        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
       }else{
         $latephpverarr[0]="?.?.?";
         $latephpverarr[1]=$xmlindex->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
@@ -130,6 +133,7 @@
         $mysqlver="NA";
       }else{
         $mysqlver=mysqli_get_server_info($conn);
+        //echo $mysqlver;
         mysqli_close($conn);
       }
       return $mysqlver;
@@ -138,7 +142,7 @@
     /* Installed MySQl Version either MySQL or MariaDB*/
     if (strpos($installed_mysql_d,"MariaDB") !== false) {
       $installed_mysql_mx=explode("-", $installed_mysql_d);
-      $installed_mysql="MariaDB ".$installed_mysql_mx[1];
+      $installed_mysql="MariaDB ".$installed_mysql_mx[0];
       $installed_mysql_dev=1;
     }else{
       $installed_mysql="MySQL ".$installed_mysql_d;
@@ -167,13 +171,44 @@
       $latemysqlver=latemysqlverfunc();
     }else{
       /* Get Latest MariaDB Version */
-      function latemysqlverfunc() {
+      function latemdbverfunc() {
         global $xmlindex,$installed_mysql;
-        $latemysqlverarr[0]=$xmlindex->DB->MARIADB->LATEST; //MariaDB 10.x.x Latest Version Number
-        $latemysqlverarr[1]=$xmlindex->DATA_URL->MARIADB_URL ."mariadb/".$xmlindex->DB->MARIADB->LATEST; //MariaDB 10.x.x Download URL
-        return $latemysqlverarr;
+        //$latemdbverarr[0]=$xmlindex->DB->MARIADB->LATEST; //MariaDB 10.x.x Latest Version Number
+        //$latemysqlverarr[1]=$xmlindex->DATA_URL->MARIADB_URL ."mariadb/".$xmlindex->DB->MARIADB->LATEST; //MariaDB 10.x.x Download URL
+        //Web - https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.6.8&os=windows&cpu=x86_64&pkg=zip
+        //File - https://archive.mariadb.org/mariadb-10.6.8/winx64-packages/
+        //$latemdbverarr[1]="https://mariadb.org/download/?t=mariadb&p=mariadb&r=".$xmlindex->DB->MARIADB->LATEST."&os=windows&pkg=zip";
+        if (strpos($installed_mysql,'10.2')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V102_LATEST; //MariaDB 10.2.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V102_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.3')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V103_LATEST; //MariaDB 10.3.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V103_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.4')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V104_LATEST; //MariaDB 10.4.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V104_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.5')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V105_LATEST; //MariaDB 10.5.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V105_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.6')!==false){
+          $latemdbverarr[0]="MariaDB ".$xmlindex->DB->MARIADB->V106_LATEST; //MariaDB 10.6.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V106_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.7')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V107_LATEST; //MariaDB 10.7.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V107_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.8')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V108_LATEST; //MariaDB 10.8.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V108_LATEST."/winx64-packages/";
+        }elseif (strpos($installed_mysql,'10.9')!==false) {
+          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V109_LATEST; //MariaDB 10.9.x Latest Version Number
+          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V109_LATEST."/winx64-packages/";
+        }else{
+          $latemdbverarr[0]="?.?.?";
+          $latemdbverarr[1]="https://mariadb.org/download"; //MariaDB Download URL
+        }
+        return $latemdbverarr;
       }
-      $latemysqlver=latemysqlverfunc();
+      $latemysqlver=latemdbverfunc();
     }
     
   /* Compare Latest to Installed MySQl Version */
@@ -209,12 +244,12 @@
   /* Get Latest phpMyAdmin Version */
     $latephpmyadminverarr[0]=$xmlindex->DB_ADMIN->PMA->LATEST; //phpMyAdmin Latest Version Number
     $latephpmyadminverarr[1]="https://www.phpmyadmin.net/downloads/"; //phpMyAdmin Download URL
-  /* Compare Latest to Installed MySQl Version */
+  /* Compare Latest to Installed phpMyAdmin Version */
     if ($installed_phpmyadmin=="NA"){
       $latest_phpmyadmin="NA";
     }else{
       if (strpos($installed_phpmyadmin_ver,"$latephpmyadminverarr[0]") !== false) {
-      $latest_phpmyadmin=$latephpmyadminverarr[0];
+      $latest_phpmyadmin="PMA ".$latephpmyadminverarr[0];
       }else{
         $latest_phpmyadmin="<a class=\"USBWSVerNew\" href=\"".$latephpmyadminverarr[1]."\" target=\"_blank\">".$latephpmyadminverarr[0]."</a>";
       }

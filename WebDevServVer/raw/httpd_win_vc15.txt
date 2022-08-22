@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 <title>Apache VC15 binaries and modules download</title>
-<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
 <META NAME="robots" CONTENT="all">
 <META NAME="title" CONTENT="Download VC15 Apache 2.4 Server and Modules">
 <meta name="keywords" content="apache,module,php,mysql,perl,virus,server,forum,blog,download,support,web,host,hosting,proxy,cgi,webdav,http,help,java,log,mail,ssl,windows">
@@ -41,12 +41,13 @@ background-repeat: repeat-y; }
 hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170043-6"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H70690R0MN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-170043-6');
+
+  gtag('config', 'G-H70690R0MN');
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Auto Ads -->
@@ -78,13 +79,14 @@ hr{height:0px;border:dotted #B2C2DC 0px;border-top-width:1px}
 <td class="type5" align="left">
 <center><img src="/images/new.gif" alt="[latest]"></center>
 <span class=smalltype><i>
-<b>8 March 2021</b><br>New C++ Redistributable</b><br><br>
-<b>18 February 2021</b><br>httpd 2.4.46 Update</b><br><br>
-<b>10 December 2020</b><br>httpd 2.4.46 Update</b><br><br>
-<b>2 October 2020</b><br>httpd 2.4.46 Update</b><br><br>
-<b>5 August 2020</b><br>httpd 2.4.46<br><br>
-<b>21 April 2020</b><br>httpd 2.4.43 Update<br><br>
-</i></span>
+<b>03 July 2022</b><br>New C++ Redistributable<br><br>
+<b>24 June 2022</b><br>httpd 2.4.54 Update<br><br>
+<b>08 June 2022</b><br>httpd 2.4.54<br><br>
+<b>05 May 2022</b><br>httpd 2.4.53 Update<br><br>
+<b>16 March 2022</b><br>httpd 2.4.53<br><br>
+Dropping Win32 Download,<br>see  <a href="/viewtopic.php?t=8858"><b>Drop Win32</b></a><br><br>
+Dropping VC15 Download,<br>see  <a href="/viewtopic.php?t=8859"><b>Drop VC15</b></a><br><br>
+<b>04 January 2022</b><br>VS17 Goodies <a href="/viewtopic.php?p=40834"><b>Download</b></a><br><br>
 </td></tr></table></td></tr></table><br>
 <table border="0" width="172" cellspacing="0" cellpadding="1" class="type0"><tr><td class="type0">
 <table border="0" width="100%" cellspacing="0" cellpadding="5" class="type5">
@@ -127,22 +129,22 @@ A donation makes a contribution towards the costs, the time and effort that's go
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 VC15 Windows Binaries and Modules</font></center><br>
 Apache Lounge has provided up-to-date Windows binaries and popular third-party modules for more than 15 years. We have hundreds of thousands of satisfied users: small and big companies as well as home users. 
 Always build with up to date dependencies and latest compilers, and tested thorough. The binaries are referenced by the  ASF, Microsoft, PHP etc. and more and more software is packaged with our binaries and modules.<br><br>
-The binaries, are build with the  sources from ASF at httpd.apache.org, contains the latest patches and latest dependencies like zlib, openssl etc. which makes the downloads here mostly more actual then downloads from other places. The binaries <b>do not run</b> on XP and 2003. Runs on: 7 SP1, Vista SP2, 8 / 8.1, 10,  Server 2008 SP2 / R2 SP1, Server 2012 / R2, Server 2016/2019.<br><br>
-Build with  the latest Windows® Visual Studio C++ 2017 aka VC15. VC15 has improvements, fixes and optimizations over VC14 in areas like Performance, MemoryManagement, New standard conformance features, Code generation and Stability. For example code quality tuning and improvements done across different code generation areas for "speed". And makes more use of modern processors and supported Windows editions (win 7 and up) internal features.<br><br>
-<b>Be sure</b> you installed 14.28.29910.0 Visual C++ Redistributable for Visual Studio 2015-2019 : <a href="https://aka.ms/vs/16/release/VC_redist.x64.exe" target="_blank"><b>vc_redist_x64</b></a> or <a href="https://aka.ms/vs/16/release/VC_redist.x86.exe " target="_blank"><b>vc_redist_x86</b></a> see <a href="/viewtopic.php?p=38205"><b>Redistributable</b></a>
+The binaries, are build with the  sources from ASF at httpd.apache.org, contains the latest patches and latest dependencies like zlib, openssl etc. which makes the downloads here mostly more actual then downloads from other places. The binaries <b>do not run</b> on XP and 2003. Runs on: 7 SP1, Vista SP2, 8/8.1, 10, 11  Server 2008 SP2 / R2 SP1, Server 2012 / R2, Server 2016/2019/2022.<br><br>
+Build with  the latest Windows® Visual Studio C++ 2017 aka VC15. VC15 has improvements, fixes and optimizations over VC14 in areas like Performance, MemoryManagement, New standard conformance features, Code generation and Stability. For example code quality tuning and improvements done across different code generation areas for "speed". And makes more use of modern processors and supported Windows editions (win7 and up) internal features.<br><br>
+<b>Be sure</b> you installed 14.32.31332 Visual C++ Redistributable Visual Studio 2015-2022 : <a href="https://aka.ms/vs/17/release/VC_redist.x64.exe" target="_blank"><b>vc_redist_x64</b></a> or <a href="https://aka.ms/vs/17/release/VC_redist.x86.exe " target="_blank"><b>vc_redist_x86</b></a> see <a href="/viewtopic.php?p=38205"><b>Redistributable</b></a>
 <center>
 <hr>
 <font style="font-size: 15px; font-weight: bold; color: #525D76; font-family: Arial, Helvetica, sans-serif">Apache 2.4 binaries VC15</font><br><br>
-<a href="/viewtopic.php?p=39400"><b>Info & Changelog</b></a></center>
-<font style="color: green;font-weight: bold">Apache 2.4.46 Win64</font>
-<pre><img src="/images/hot.gif" alt="[Apache VC15 Binary]"> <a href="https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.46-win64-VC15.zip">httpd-2.4.46-win64-VC15.zip</a>                             18 Dec '21  10.214k
+<a href="/viewtopic.php?p=41289"><b>Info & Changelog</b></a></center>
+<font style="color: green;font-weight: bold">Apache 2.4.54 Win64</font>
+<pre><img src="/images/hot.gif" alt="[Apache VC15 Binary]"> <a href="https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.54-win64-VC15.zip">httpd-2.4.54-win64-VC15.zip</a>                             24 June '22  10.456k
 
-  <a href="/download/VC15/binaries/httpd-2.4.46-win64-VC15.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC15/binaries/httpd-2.4.46-win64-VC15.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
-<font style="color: green;font-weight: bold">Apache 2.4.46 Win32</font><br>
+  <a href="/download/VC15/binaries/httpd-2.4.54-win64-VC15.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC15/binaries/httpd-2.4.54-win64-VC15.zip.txt" target="_blank" ><b>Checksums</b></a></pre>
+<font style="color: green;font-weight: bold">Apache 2.4.54 Win32</font><br>
 <pre>
-<img src="/images/hot.gif" alt="[Apache VC15 Binary]"> <a href="https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.46-win32-VC15.zip">httpd-2.4.46-win32-VC15.zip</a>                             18 Dec '21   9.310k 
+<img src="/images/hot.gif" alt="[Apache VC15 Binary]"> <a href="https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.54-win32-VC15.zip">httpd-2.4.54-win32-VC15.zip</a>                             24 June '22   9.532k 
 
-  <a href="/download/VC15/binaries/httpd-2.4.46-win32-VC15.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC15/binaries/httpd-2.4.46-win32-VC15.zip.txt" target="_blank" ><b>Checksums</b></a>
+  <a href="/download/VC15/binaries/httpd-2.4.54-win32-VC15.zip.asc"><b>PGP</b></a> Signature (Public <a href="/download/Steffen_Land.asc"><b>PGP key</b></a>), SHA1-SHA512 <a href="/download/VC15/binaries/httpd-2.4.54-win32-VC15.zip.txt" target="_blank" ><b>Checksums</b></a>
 
 </pre>
 To be sure that a download is intact and has not been tampered with, use PGP, see <a href="/viewtopic.php?p=26378"><b>PGP Signature</b></a><br><br>

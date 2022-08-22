@@ -34,3 +34,6 @@ table.tablelinks td{border:0px solid gray; padding:3px; text-align:left;}
 table.tablesearch{border:0px solid gray; margin:auto; width:100%; font-size:0.9em; position: relative;}
 table.tablesearch tr{border:0px solid gray;}
 table.tablesearch td{border:0px solid gray; padding:3px; text-align:right;}
+table.tabledatahtp{border:2px solid gray; margin-left:auto; margin-right:auto; font-size:0.9em; position: relative;font-size:0.8em; color:#FFF; font-family:"Lucida Console", Monaco, monospace;}
+table.tabledatahtp tr{border:1px solid gray;}
+table.tabledatahtp td{border:1px solid gray; padding:3px; text-align:center; }

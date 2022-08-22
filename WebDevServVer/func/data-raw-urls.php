@@ -12,6 +12,6 @@
   $WebDevServVerarr['DATA_URL']['MYSQL56_URL']="https://dev.mysql.com/downloads/mysql/5.6.html"; //MySQL 5.6.x URL
   $WebDevServVerarr['DATA_URL']['MYSQL57_URL']="https://dev.mysql.com/downloads/mysql/5.7.html"; //MySQL 5.7.x URL
   $WebDevServVerarr['DATA_URL']['MYSQL80_URL']="https://dev.mysql.com/downloads/mysql/8.0.html"; //MySQL 8.x.x URL
-  $WebDevServVerarr['DATA_URL']['MARIADB_URL']="https://downloads.mariadb.org/"; //MariaDB 10.x.x URL
+  $WebDevServVerarr['DATA_URL']['MARIADB_URL']="https://mariadb.com/downloads/"; //MariaDB 10.x.x URL
   $WebDevServVerarr['DATA_URL']['PMA_URL']="https://www.phpmyadmin.net/home_page/version.json"; //PHPMyAdmin URL
 ?>
