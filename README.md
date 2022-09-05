@@ -52,25 +52,29 @@ Below are the variables with the installed and latest version for each server an
 
 ------------
 
-## WebServer(s):
+WebServer(s):
+```
 	Apache Installed Version     : $installed_apache
 	Apache Latest Version        : $latest_apache
-
-## Scripting Languages(s):
-	PHP Installed Version        : $installed_php
+```
+Scripting Languages(s):
+```
+  PHP Installed Version        : $installed_php
 	PHP Latest Version           : $latest_php
-
-## Database(s):
+```
+Database(s):
+```
 	MySQL Username               : $mysql_user
 	MySQL Password               : $mysql_pass
 	MySQL Port                   : $mysql_port
-	MySQL Installed Version      : $installed_mysql
-	MySQL Latest Version         : $latest_mysql
-
-## Database Manager(s):
+	MySQL Installed Version      : $installed_db
+	MySQL Latest Version         : $latest_db
+```
+Database Manager(s):
+```
 	phpMyAdmin Installed Version : $installed_phpmyadmin
 	phpMyAdmin Latest Version    : $latest_phpmyadmin
-
+```
 ------------
 
 **The Code for WebDevServVer has been released under the MIT License:**
