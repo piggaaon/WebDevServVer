@@ -5,12 +5,11 @@
     <APACHEVC11_URL>https://www.apachelounge.com/download/VC11/</APACHEVC11_URL>
     <APACHEVC14_URL>https://www.apachelounge.com/download/VC14/</APACHEVC14_URL>
     <APACHEVC15_URL>https://www.apachelounge.com/download/VC15/</APACHEVC15_URL>
-    <APACHEVS16_URL>https://www.apachelounge.com/download/</APACHEVS16_URL>
+    <APACHEVS16_URL>https://www.apachelounge.com/download/VS16/</APACHEVS16_URL>
     <APACHE_URL_NIX>https://httpd.apache.org/</APACHE_URL_NIX>
     <PHP_URL_DOWNLOAD_WIN>https://windows.php.net/download/</PHP_URL_DOWNLOAD_WIN>
     <PHP_URL_DOWNLOAD_NIX>https://www.php.net/</PHP_URL_DOWNLOAD_NIX>
     <PHP_URL_VERSION>https://windows.php.net/downloads/releases/sha256sum.txt</PHP_URL_VERSION>
-    <MYSQL56_URL>https://dev.mysql.com/downloads/mysql/5.6.html</MYSQL56_URL>
     <MYSQL57_URL>https://dev.mysql.com/downloads/mysql/5.7.html</MYSQL57_URL>
     <MYSQL80_URL>https://dev.mysql.com/downloads/mysql/8.0.html</MYSQL80_URL>
     <MARIADB_URL>https://mariadb.com/downloads/</MARIADB_URL>
@@ -23,6 +22,12 @@
       <VC15_LATEST>2.4.54</VC15_LATEST>
       <VS16_LATEST>2.4.54</VS16_LATEST>
     </APACHE>
+    <OPENSSL>
+      <VC11_LATEST>1.0.2r</VC11_LATEST>
+      <VC14_LATEST>1.1.1e</VC14_LATEST>
+      <VC15_LATEST>1.1.1p</VC15_LATEST>
+      <VS16_LATEST>1.1.1p</VS16_LATEST>
+    </OPENSSL>
   </HTTPD>
   <SCRTLANG>
     <PHP>
@@ -32,17 +37,17 @@
       <V72_LATEST>7.2.34</V72_LATEST>
       <V73_LATEST>7.3.33</V73_LATEST>
       <V74_LATEST>7.4.30</V74_LATEST>
-      <V80_LATEST>8.0.22</V80_LATEST>
-      <V81_LATEST>8.1.9</V81_LATEST>
+      <V80_LATEST>8.0.23</V80_LATEST>
+      <V81_LATEST>8.1.10</V81_LATEST>
     </PHP>
   </SCRTLANG>
   <DB>
     <MYSQL>
-      <V56_LATEST>8.0.30</V56_LATEST>
       <V57_LATEST>5.7.39</V57_LATEST>
       <V80_LATEST>8.0.30</V80_LATEST>
     </MYSQL>
     <MARIADB>
+      <V1010_LATEST>10.10.1</V1010_LATEST>
       <V103_LATEST>10.3.36</V103_LATEST>
       <V104_LATEST>10.4.26</V104_LATEST>
       <V105_LATEST>10.5.17</V105_LATEST>
@@ -57,5 +62,5 @@
       <LATEST>5.2.0</LATEST>
     </PMA>
   </DB_ADMIN>
-  <DATE_LAST>1661191989</DATE_LAST>
+  <DATE_LAST>1662397051</DATE_LAST>
 </WebDevServVer_INFO>

@@ -1,9 +1,10 @@
 <?php
 /* Set where to get latest Version Information  
-* 0 = Get WebDevServVer.xml from GitHub
-* 1 = Get Version information from Apache Lounge,PHP.net,MySQL and create WebDevServVer.xml (default)
+* 0 = For WebDevServVer development use only, this option will use raw data folder as source
+* 1 = Get WebDevServVer.xml from GitHub
+* 2 = Get Version information from Apache Lounge,PHP.net,MySQL and create WebDevServVer.xml (default)
 */
-  $getverinfo=1;
+  $getverinfo=2;
 /* Time before Version Information is Updated 
 * Default is 30 days or XXXXXXXX seconds
 * 

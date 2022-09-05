@@ -1,7 +1,7 @@
 <?php
 /* Apache httpd - http://www.apachelounge.com/download/ */
   /* Get Installed Apache Version */
-    function instapacheverfunc() {
+    function instapacheverfunc(){
       $apacherssl=0;
       $apachever=$_SERVER['SERVER_SOFTWARE'];
       //echo $apachever;
@@ -28,14 +28,14 @@
         $apacheverbld="x64";
       }
        /* Get OpenSSL Version if Setup */
-      if (strpos($apachever, 'OpenSSL') !== false) {
+      if (strpos($apachever, 'OpenSSL') !== false){
         $apacheverx=explode("/", $apacchex[2]);
         $apachersslver=$apacheverx[1];
         $apachersslvertxt=" (OpenSSL $apachersslver)";
         $apacherssl=1;
       }
       /* Complete Compiled Apache Version*/
-      if ($apacherssl=0) {
+      if ($apacherssl=0){
         $apachervertxt=$apacheverserv." ".$apachevernum." ".$apacheverbld." ".$apacheCompiled;
       }else{
         $apachervertxt=$apacheverserv." ".$apachevernum." ".$apacheverbld." ".$apacheCompiled.$apachersslvertxt;
@@ -43,30 +43,36 @@
       return $apachervertxt;
     }
     $installed_apache=instapacheverfunc();
+    //$installed_apache="Apache 2.4.54 x64 VC17 (OpenSSL 1.1.1p)";
   /* Get Latest Apache Version */
-    function lateapacheverfunc() {
-      global $xmlindex,$installed_apache;
-      if (strpos($installed_apache,"VC11") !== false) {
-        $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VC11_LATEST; //Apache httpd VC11 Latest Version Number
-        $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHEVC11_URL; //Apache httpd VC11 URL
-      }elseif (strpos($installed_apache,"VC14") !== false) {
-        $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VC14_LATEST; //Apache httpd VC14 Latest Version Number
-        $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHEVC14_URL; //Apache httpd VC14 URL
-      }elseif (strpos($installed_apache,"VC15") !== false){
-        $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VC15_LATEST; //Apache httpd VC15 Latest Version Number
-        $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHEVC15_URL; //Apache httpd VC15 URL
-      }elseif (strpos($installed_apache,"VS16") !== false){
-        $lateapacheverarr[0]=$xmlindex->HTTPD->APACHE->VS16_LATEST; //Apache httpd VS16 Latest Version Number
-        $lateapacheverarr[1]=$xmlindex->DATA_URL->APACHEVS16_URL; //Apache httpd VS16 URL
-      }else{
-        $lateapacheverarr[0]="?.?.?";
-        $lateapacheverarr[1]=$xmlindex->APACHE_URL; //PHP Download URL
+    function lateapacheverfunc(){
+      global $WebDevServVerarr,$installed_apache;
+      foreach($WebDevServVerarr['HTTPD']['APACHE'] as $key => $itembld){
+        $itembld=substr($key,0,4);
+        if (strpos($installed_apache,$itembld) !== false){
+          $installed_apache_bld=trim($itembld);
+        }
       }
+      if(!empty($installed_apache_bld)){
+        $lateapacheurl=$WebDevServVerarr['DATA_URL']["APACHE".$installed_apache_bld."_URL"];
+        $lateapachever=$WebDevServVerarr['HTTPD']['APACHE'][$installed_apache_bld."_LATEST"];
+        $lateopensslver=$WebDevServVerarr['HTTPD']['OPENSSL'][$installed_apache_bld."_LATEST"];
+      }else{
+        $lateapacheurl=$WebDevServVerarr['DATA_URL']['APACHE_URL'];
+        $lateapachever="?.?.?";
+        $lateopensslver="?.?.?";
+        $installed_apache_bld=" ";
+      }
+      $lateapacheverarr[0]="Apache ".$lateapachever." x?? ".$installed_apache_bld." (OpenSSL ".$lateopensslver.")"; //Apache httpd and OpenSSL Latest Version Number
+      $lateapacheverarr[1]=$lateapacheurl;
+      $lateapacheverarr[2]=$lateapachever;
+      $lateapacheverarr[3]=$lateopensslver;
+
       return $lateapacheverarr;
     }
     $lateapacheverarr=lateapacheverfunc();
   /* Compare Latest to Installed Apache Version */
-    if (strpos($installed_apache,"$lateapacheverarr[0]") !== false) {
+    if (strpos($installed_apache,trim($lateapacheverarr[2])) !== false and strpos($installed_apache,trim($lateapacheverarr[3])) !== false){
       $latest_apache=$lateapacheverarr[0];
     }else{
       $latest_apache="<a class=\"USBWSVerNew\" href=\"".$lateapacheverarr[1]."\" target=\"_blank\">".$lateapacheverarr[0]."</a>";
@@ -75,48 +81,37 @@
 
 /* PHP - http://windows.php.net/ */
   /* Get Installed PHP Version */
-    function instphpverfunc() {
+    function instphpverfunc(){
       $phprver=phpversion();
       
       return $phprver;
     }
     $installed_php=instphpverfunc();
   /* Get Latest PHP Version */
-    function latephpverfunc() {
-      global $xmlindex,$installed_php;
-      if (substr($installed_php, 0, 3)==5.6) {
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V56_LATEST; //PHP 5.6.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==7.0){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V70_LATEST; //PHP 7.0.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==7.1){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V71_LATEST; //PHP 7.1.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==7.2){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V72_LATEST; //PHP 7.2.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==7.3){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V73_LATEST; //PHP 7.3.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==7.4){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V74_LATEST; //PHP 7.4.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==8.0){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V80_LATEST; //PHP 8.0.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
-      }elseif (substr($installed_php, 0, 3)==8.1){
-        $latephpverarr[0]=$xmlindex->SCRTLANG->PHP->V81_LATEST; //PHP 8.1.x Latest Version Number
-        $latephpverarr[1]=$xmlindex->DATA_URL->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
+    function latephpverfunc(){
+      global $WebDevServVerarr,$installed_php;
+      //$installed_php="8.1.20";
+      foreach($WebDevServVerarr['SCRTLANG']['PHP'] as $itembld){
+        $itemlst=substr($itembld,0,3);
+        $itemins=substr($installed_php, 0, 3);
+        if ($itemins==$itemlst){
+          $installed_php_bld=trim($itemlst);
+        }
+      }
+      if(!empty($installed_php_bld)){
+        $latphpvercomp=str_replace(".","",$installed_php_bld);
+        $latephpverarr[0]=$WebDevServVerarr['SCRTLANG']['PHP']["V".$latphpvercomp."_LATEST"];
+        $latephpverarr[1]=$WebDevServVerarr['DATA_URL']['PHP_URL_DOWNLOAD_WIN'];
       }else{
         $latephpverarr[0]="?.?.?";
-        $latephpverarr[1]=$xmlindex->PHP_URL_DOWNLOAD_WIN; //PHP Download URL
+        $latephpverarr[1]=$WebDevServVerarr['DATA_URL']['PHP_URL_DOWNLOAD_WIN'];
       }
+
       return $latephpverarr;
     }
     $latephpver=latephpverfunc();
   /* Compare Latest to Installed PHP Version */
-    if (strpos($installed_php,"$latephpver[0]") !== false) {
+    if (strpos($installed_php,$latephpver[0]) !== false){
       $latest_php=$latephpver[0];
     }else{
       $latest_php="<a class=\"USBWSVerNew\" href=\"".$latephpver[1]."\" target=\"_blank\">".$latephpver[0]."</a>";
@@ -125,10 +120,10 @@
 
 /* MySQl - http://dev.mysql.com/downloads/mysql/ or https://downloads.mariadb.org/ */
   /* Get Installed MySQl Version */
-    function instmysqlverfunc() {
+    function instmysqlverfunc(){
       global $mysql_host,$mysql_user,$mysql_pass;
       $conn=@mysqli_connect($mysql_host,$mysql_user,$mysql_pass);
-      if (mysqli_connect_errno()) { 
+      if (mysqli_connect_errno()){ 
         //printf("Connect failed: %s\n", mysqli_connect_error()); exit(); } 
         $mysqlver="NA";
       }else{
@@ -138,30 +133,27 @@
       }
       return $mysqlver;
     }
-    $installed_mysql_d=instmysqlverfunc();
+    $installed_db_d=instmysqlverfunc();
     /* Installed MySQl Version either MySQL or MariaDB*/
-    if (strpos($installed_mysql_d,"MariaDB") !== false) {
-      $installed_mysql_mx=explode("-", $installed_mysql_d);
-      $installed_mysql="MariaDB ".$installed_mysql_mx[0];
-      $installed_mysql_dev=1;
+    if (strpos($installed_db_d,"MariaDB") !== false){
+      $installed_db_mx=explode("-", $installed_db_d);
+      $installed_db="MariaDB ".$installed_db_mx[0];
+      $installed_db_dev=1;
     }else{
-      $installed_mysql="MySQL ".$installed_mysql_d;
-      $installed_mysql_dev=0;
+      $installed_db="MySQL ".$installed_db_d;
+      $installed_db_dev=0;
     }
   /* Get Latest MySQl or MariaDB Version */
-    if ($installed_mysql_dev==0 ) {
+    if ($installed_db_dev==0 ){
       /* Get Latest MySQl Version */
-      function latemysqlverfunc() {
-        global $xmlindex,$installed_mysql;
-        if (substr($installed_mysql, 0, 3)==5.6) {
-          $latemysqlverarr[0]=$xmlindex->DB->MYSQL->V56_LATEST; //MySQL 5.6.x Latest Version Number
-          $latemysqlverarr[1]=$xmlindex->DATA_URL->MYSQL56_URL; //MySQL 5.6.x Download URL
-        }elseif (substr($installed_mysql, 0, 3)==5.7) {
-          $latemysqlverarr[0]=$xmlindex->DB->MYSQL->V57_LATEST; //MySQL 5.7.x  Latest Version Number
-          $latemysqlverarr[1]=$xmlindex->DATA_URL->MYSQL57_URL; //MySQL 5.7.x Download URL
-        }elseif (substr($installed_mysql, 0, 3)==8.0) {
-          $latemysqlverarr[0]=$xmlindex->DB->MYSQL->V80_LATEST; //MySQL 8.0.x  Latest Version Number
-          $latemysqlverarr[1]=$xmlindex->DATA_URL->MYSQL80_URL; //MySQL 8.0.x Download URL
+      function latemysqlverfunc(){
+        global $WebDevServVerarr,$installed_db;
+        if (substr($installed_db, 0, 3)==5.7){
+          $latemysqlverarr[0]=$WebDevServVerarr['DB']['MYSQL']['V57_LATEST']; //MySQL 5.7.x  Latest Version Number
+          $latemysqlverarr[1]=$WebDevServVerarr['DATA_URL']['MYSQL57_URL']; //MySQL 5.7.x Download URL
+        }elseif (substr($installed_db, 0, 3)==8.0){
+          $latemysqlverarr[0]=$WebDevServVerarr['DB']['MYSQL']['V80_LATEST']; //MySQL 8.0.x  Latest Version Number
+          $latemysqlverarr[1]=$WebDevServVerarr['DATA_URL']['MYSQL80_URL']; //MySQL 8.0.x Download URL
         }else{
           $latemysqlverarr[0]="?.?.?";
           $latemysqlverarr[1]="https://dev.mysql.com/downloads/mysql/"; //MySQL Download URL
@@ -171,57 +163,50 @@
       $latemysqlver=latemysqlverfunc();
     }else{
       /* Get Latest MariaDB Version */
-      function latemdbverfunc() {
-        global $xmlindex,$installed_mysql;
-        //$latemdbverarr[0]=$xmlindex->DB->MARIADB->LATEST; //MariaDB 10.x.x Latest Version Number
-        //$latemysqlverarr[1]=$xmlindex->DATA_URL->MARIADB_URL ."mariadb/".$xmlindex->DB->MARIADB->LATEST; //MariaDB 10.x.x Download URL
-        //Web - https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.6.8&os=windows&cpu=x86_64&pkg=zip
-        //File - https://archive.mariadb.org/mariadb-10.6.8/winx64-packages/
-        //$latemdbverarr[1]="https://mariadb.org/download/?t=mariadb&p=mariadb&r=".$xmlindex->DB->MARIADB->LATEST."&os=windows&pkg=zip";
-        if (strpos($installed_mysql,'10.2')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V102_LATEST; //MariaDB 10.2.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V102_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.3')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V103_LATEST; //MariaDB 10.3.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V103_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.4')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V104_LATEST; //MariaDB 10.4.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V104_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.5')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V105_LATEST; //MariaDB 10.5.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V105_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.6')!==false){
-          $latemdbverarr[0]="MariaDB ".$xmlindex->DB->MARIADB->V106_LATEST; //MariaDB 10.6.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V106_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.7')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V107_LATEST; //MariaDB 10.7.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V107_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.8')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V108_LATEST; //MariaDB 10.8.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V108_LATEST."/winx64-packages/";
-        }elseif (strpos($installed_mysql,'10.9')!==false) {
-          $latemdbverarr[0]=$xmlindex->DB->MARIADB->V109_LATEST; //MariaDB 10.9.x Latest Version Number
-          $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$xmlindex->DB->MARIADB->V109_LATEST."/winx64-packages/";
-        }else{
-          $latemdbverarr[0]="?.?.?";
-          $latemdbverarr[1]="https://mariadb.org/download"; //MariaDB Download URL
+      function latemdbverfunc(){
+        global $WebDevServVerarr,$installed_db;
+        //Web - https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.6.9&os=windows&cpu=x86_64&pkg=zip
+        //File - https://archive.mariadb.org/mariadb-10.6.9/winx64-packages/
+        //$latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$WebDevServVerarr['DB']['MARIADB']['V109_LATEST']."/winx64-packages/";
+        
+      foreach($WebDevServVerarr['DB']['MARIADB'] as $itembld){
+        $itemlst=trim($itembld);
+        $installed_dbx=explode(" ",$installed_db);
+        $itemins=trim($installed_dbx[1]);
+        //echo $itemlst."|".$itemins."<br />";
+        if ($itemins==$itemlst){
+          $installed_db_bld=trim($itemins);
+          //echo $itemlst."|".$itemins."|".$installed_db_bld;
         }
+      }
+      if(!empty($installed_db_bld)){
+        $latemdbverx=explode(".",$installed_db_bld);
+        $latmariadbvercomp=$latemdbverx[0].$latemdbverx[1];
+        $latemdbverarr[0]="MariaDB ".$WebDevServVerarr['DB']['MARIADB']["V".$latmariadbvercomp."_LATEST"];
+        $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$WebDevServVerarr['DB']['MARIADB']['V109_LATEST']."/winx64-packages/";
+      }else{
+        $latemdbverarr[0]="?.?.?";
+        $latemdbverarr[1]=$WebDevServVerarr['DATA_URL']['MARIADB_URL'];
+      }
+        
+        
+        
         return $latemdbverarr;
       }
       $latemysqlver=latemdbverfunc();
     }
     
   /* Compare Latest to Installed MySQl Version */
-    if (strpos($installed_mysql,"$latemysqlver[0]") !== false) {
-      $latest_mysql=$latemysqlver[0];
+    if (strpos($installed_db,"$latemysqlver[0]") !== false){
+      $latest_db=$latemysqlver[0];
     }else{
-      $latest_mysql="<a class=\"USBWSVerNew\" href=\"".$latemysqlver[1]."\" target=\"_blank\">".$latemysqlver[0]."</a>";
+      $latest_db="<a class=\"USBWSVerNew\" href=\"".$latemysqlver[1]."\" target=\"_blank\">".$latemysqlver[0]."</a>";
     }
 /* END - MySQl */
 
 /* phpMyAdmin - http://www.phpmyadmin.net/ */
   /* Check if phpMyAdmin Installed */
-    if (!empty($_SERVER['HTTPS'])) {
+    if (!empty($_SERVER['HTTPS'])){
       $rooturl='https://'.$_SERVER['HTTP_HOST'].'/';
       $docfile=$rooturl."DBAdmin/package.json";
       $context=[ 'http' => [ 'method' => 'GET' ], 'ssl' => [ 'verify_peer' => false, 'allow_self_signed'=> true ] ];
@@ -229,7 +214,7 @@
       $contents=file_get_contents("$docfile", false, $context);
       if (strlen($contents)){
         /* Get Installed phpMyAdmin Version */
-          function instphpmyadminverfunc($json) {
+          function instphpmyadminverfunc($json){
             $jsondechtml=json_decode($json, true);
             $phpmyadminver=$jsondechtml['version'];
             return $phpmyadminver;
@@ -242,14 +227,14 @@
     }
     clearstatcache();
   /* Get Latest phpMyAdmin Version */
-    $latephpmyadminverarr[0]=$xmlindex->DB_ADMIN->PMA->LATEST; //phpMyAdmin Latest Version Number
+    $latephpmyadminverarr[0]=$WebDevServVerarr['DB_ADMIN']['PMA']['LATEST']; //phpMyAdmin Latest Version Number
     $latephpmyadminverarr[1]="https://www.phpmyadmin.net/downloads/"; //phpMyAdmin Download URL
   /* Compare Latest to Installed phpMyAdmin Version */
     if ($installed_phpmyadmin=="NA"){
       $latest_phpmyadmin="NA";
     }else{
-      if (strpos($installed_phpmyadmin_ver,"$latephpmyadminverarr[0]") !== false) {
-      $latest_phpmyadmin="PMA ".$latephpmyadminverarr[0];
+      if (strpos($installed_phpmyadmin_ver,"$latephpmyadminverarr[0]") !== false){
+      $latest_phpmyadmin="phpMyAdmin ".$latephpmyadminverarr[0];
       }else{
         $latest_phpmyadmin="<a class=\"USBWSVerNew\" href=\"".$latephpmyadminverarr[1]."\" target=\"_blank\">".$latephpmyadminverarr[0]."</a>";
       }
@@ -257,9 +242,9 @@
 /* END - phpMyAdmin */
 
 /* Get and Convert Last Version(s) Date Check */
-  function datechecklastfunc() {
-    global $xmlindex;
-    $datelateconv=gmdate("Y-m-d", intval($xmlindex->DATE_LAST)); //Unix Timestamp, last time check for new version
+  function datechecklastfunc(){
+    global $WebDevServVerarr;
+    $datelateconv=gmdate("Y-m-d", intval($WebDevServVerarr['DATE_LAST'])); //Unix Timestamp, last time check for new version
     return $datelateconv;
   }
   $datechecklast=datechecklastfunc(); //Last Date Latest Version(s) where checked

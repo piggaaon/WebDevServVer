@@ -1,30 +1,31 @@
 <?php
 /* Get Raw Version Data, Store Local */
   /* Get Raw Available Apache Version */
-    //http://www.apachelounge.com/download/VC11/
-    $url=$WebDevServVerarr['DATA_URL']['APACHEVC11_URL'];
-    $html=geturl($url);
-    $filename="./raw/httpd_win_vc11.txt";
-    writefile($html,$filename);
-    //sleep(2);
-    //http://www.apachelounge.com/download/VC14/
-    $url=$WebDevServVerarr['DATA_URL']['APACHEVC14_URL'];
-    $html=geturl($url);
-    $filename="./raw/httpd_win_vc14.txt";
-    writefile($html,$filename);
-    //sleep(2);
-    //http://www.apachelounge.com/download/VC15/
-    $url=$WebDevServVerarr['DATA_URL']['APACHEVC15_URL'];
-    $html=geturl($url);
-    $filename="./raw/httpd_win_vc15.txt";
-    writefile($html,$filename);
-    //sleep(2);
-    //http://www.apachelounge.com/download/
-    $url=$WebDevServVerarr['DATA_URL']['APACHEVS16_URL'];
-    $html=geturl($url);
-    $filename="./raw/httpd_win_vs16.txt";
-    writefile($html,$filename);
-  /* Get VC Version used to Compiled Apache */
+    $apachebld=array("VC11","VC14","VC15","VS16");
+    foreach ($apachebld as $itembld){
+      if($itembld=="VS16"){
+        $url=$WebDevServVerarr['DATA_URL']['APACHE_URL'];
+      }else{
+        $url=$WebDevServVerarr['DATA_URL']['APACHE_URL']."/".$itembld."/";
+      }
+      $html=geturl($url);
+      $filename="./raw/httpd_win_".strtolower($itembld).".txt";
+      writefile($html,$filename);
+    }
+    /* Get Raw Available OpenSSL Version bundled with Apache  */
+      //<a href="/viewtopic.php?p=41289"><b>Info & Changelog</b></a></center>
+      //preg_match_all('/<a href="(.*?)"><b>Info/', $input_lines, $output_array);
+      foreach ($apachebld as $itembld){
+      $filename="./raw/httpd_win_".strtolower($itembld).".txt";
+      $html=file_get_contents($filename);
+      $pregmatchhtml=preg_match_all('/<a href="(.*?)"><b>Info/', $html, $match);
+      $url="https://www.apachelounge.com".$match[1][0];
+      $html=geturl($url);
+      $filename="./raw/httpd_win_".strtolower($itembld)."_dets.txt";
+      writefile($html,$filename);
+    }
+
+  /* Get phpinfo */
     ob_start();
     phpinfo(INFO_GENERAL);
     $html = ob_get_contents();
@@ -32,13 +33,7 @@
     $filename="./raw/phpinfo.txt";
     writefile($html,$filename);
 
-  /* Get Latest  Available MySQl Version */
-    //http://dev.mysql.com/downloads/mysql/5.6.html
-    $url=$WebDevServVerarr['DATA_URL']['MYSQL56_URL'];
-    $html=geturl($url);
-    $filename="./raw/db_mysql_56.txt";
-    writefile($html,$filename);
-    //sleep(1);
+  /* Get Latest Available MySQl Version */
     //http://dev.mysql.com/downloads/mysql/5.7.html
     $url=$WebDevServVerarr['DATA_URL']['MYSQL57_URL'];
     $html=geturl($url);
@@ -51,14 +46,14 @@
     $filename="./raw/db_mysql_80.txt";
     writefile($html,$filename);
 
-  /* Get Latest  Available MariaDB Version */
+  /* Get Latest Available MariaDB Version */
     //https://mariadb.com/downloads/
     $url=$WebDevServVerarr['DATA_URL']['MARIADB_URL'];
     $html=geturl($url);
     $filename="./raw/db_mariadb.txt";
     writefile($html,$filename);
 
-  /* Get Latest  Available PHP Version */
+  /* Get Latest Available PHP Version */
     //https://windows.php.net/downloads/releases/sha256sum.txt
     $url=$WebDevServVerarr['DATA_URL']['PHP_URL_VERSION'];
     $html=geturl($url);

@@ -1,29 +1,27 @@
 <?php
-/* Get Latest  Available Apache Version */
-  //https://www.apachelounge.com/download/VC11/ --> bold">Apache 2.4.18 Win64
-  $filename="./raw/httpd_win_vc11.txt";
-  $html=file_get_contents($filename);
-  $pregmatchhtml=preg_match_all("/bold\">Apache (.*?) Win64/ms", $html, $match);
-  $WebDevServVerarr['HTTPD']['APACHE']['VC11_LATEST']=$match[1][0];
-
-  //sleep(2);
-  //https://www.apachelounge.com/download/VC14/ --> bold">Apache 2.4.18 Win64
-  $filename="./raw/httpd_win_vc14.txt";
-  $html=file_get_contents($filename);
-  $pregmatchhtml=preg_match_all("/bold\">Apache (.*?) Win64/ms", $html, $match);
-  $WebDevServVerarr['HTTPD']['APACHE']['VC14_LATEST']=$match[1][0];
-
-  //sleep(2);
-  //https://www.apachelounge.com/download/ --> bold">Apache 2.4.18 Win64
-  $filename="./raw/httpd_win_vc15.txt";
-  $html=file_get_contents($filename);
-  $pregmatchhtml=preg_match_all("/bold\">Apache (.*?) Win64/ms", $html, $match);
-  $WebDevServVerarr['HTTPD']['APACHE']['VC15_LATEST']=$match[1][0];
-  
-  //sleep(2);
-  //https://www.apachelounge.com/download/ --> bold">Apache 2.4.18 Win64
-  $filename="./raw/httpd_win_vs16.txt";
-  $html=file_get_contents($filename);
-  $pregmatchhtml=preg_match_all("/bold\">Apache (.*?) Win64/ms", $html, $match);
-  $WebDevServVerarr['HTTPD']['APACHE']['VS16_LATEST']=$match[1][0];
+/* Get Latest Available Apache Version */
+  $apachebld=array("VC11","VC14","VC15","VS16");
+  foreach ($apachebld as $itembld){
+    $filename="./raw/httpd_win_".strtolower($itembld).".txt";
+    $html=file_get_contents($filename);
+    $pregmatchhtml=preg_match_all("/bold\">Apache (.*?) Win64/ms", $html, $match);
+    $itembldar=$itembld."_LATEST";
+    $WebDevServVerarr['HTTPD']['APACHE'][$itembldar]=$match[1][0];
+  }
+  /* Get Raw Available OpenSSL Version bundled with Apache  */
+  $apachebld=array("VC11","VC14","VC15","VS16");
+  foreach ($apachebld as $itembld){
+    $filename="./raw/httpd_win_".strtolower($itembld)."_dets.txt";
+    $html=file_get_contents($filename);
+    $pregmatchhtml=preg_match_all('/openssl (.*?)\n/', $html, $match);
+    $itemverarr=explode(",",$match[1][0]);
+    if(count($itemverarr)<2){
+      $itembldb=trim($itemverarr[0]);
+    }else{
+      $pos=strpos($itemverarr[1],"1.")-1;
+      $itembldb=substr(trim($itemverarr[1]), $pos);
+    }
+    $itembldar=$itembld."_LATEST";
+    $WebDevServVerarr['HTTPD']['OPENSSL'][$itembldar]=$itembldb;
+  }
 ?>

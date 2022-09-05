@@ -70,8 +70,8 @@ Database(s):
 MySQL Username               : $mysql_user
 MySQL Password               : $mysql_pass
 MySQL Port                   : $mysql_port
-MySQL Installed Version      : $installed_mysql
-MySQL Latest Version         : $latest_mysql
+MySQL Installed Version      : $installed_db
+MySQL Latest Version         : $latest_db
 
 =======================================================
 Database Manager(s):
