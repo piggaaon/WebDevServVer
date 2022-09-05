@@ -59,7 +59,7 @@ Below are the variables with the installed and latest version for each server an
 ```
 ### Scripting Languages(s):
 ```
-  PHP Installed Version        : $installed_php
+	PHP Installed Version        : $installed_php
 	PHP Latest Version           : $latest_php
 ```
 ### Database(s):
