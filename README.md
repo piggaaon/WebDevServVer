@@ -26,7 +26,7 @@ Download and extract zip; open index.php (example of version info).
 2. Add the following to the top of page you want to display the Server information.
 
 
- include ("./WebDevServVer/WebDevServVer_index.php");
+    include ("./WebDevServVer/WebDevServVer_index.php");
 
 3. For latest Server Version variables, there is a class CSS that will need to be 
 added to your css to define the link colors (Default: red or #ff0000):
