@@ -27,15 +27,16 @@ Download and extract zip; open index.php (example of version info).
 	"/* Include WebDevServVer Information */
 	include ("./WebDevServVer/WebDevServVer_index.php");"
 ```
+
 3. For latest Server Version variables, there is a class CSS that will need to be 
 added to your css to define the link colors (Default: red or #ff0000):
-
+```
 	.USBWSVerNew {color:#ff0000;}
 	a.USBWSVerNew:link {color:#ff0000;}
 	a.USBWSVerNew:visited {color:#ff0000;}
 	a.USBWSVerNew:active {color:#ff0000;}
 	a.USBWSVerNew:hover {color:#ff0000;}
-
+```
 4. See the list below of server information variables.
 NOTE: These variables could change overtime as updates are made to script(s), 
 if you get any error about variable could not be found, check the list again.
