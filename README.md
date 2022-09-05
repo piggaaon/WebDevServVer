@@ -24,8 +24,8 @@ Download and extract zip; open index.php (example of version info).
 1. Edit "./WebDevServVer/WebDevServVer_settings.php" file for you setup.
 2. Add the following to the top of page you want to display the Server information.
 
-
-  "/* Include WebDevServVer Information */
+	"/* Include WebDevServVer Information */
+	
 	include ("./WebDevServVer/WebDevServVer_index.php");"
 
 3. For latest Server Version variables, there is a class CSS that will need to be 
