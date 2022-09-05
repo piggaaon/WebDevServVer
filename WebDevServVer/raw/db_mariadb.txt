@@ -39,7 +39,7 @@
 <link rel="canonical" href="https://mariadb.com/downloads/" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://mariadb.com/","name":"MariaDB Enterprise Open Source Database &#038; SkySQL MariaDB Cloud"}},{"@type":"ListItem","position":2,"item":{"@id":"https://mariadb.com/downloads/","name":"MariaDB Products &#038; Tools Downloads"}}]}</script>
 <meta name="google-site-verification" content="ArGYoHETEtwSx1QXPVnuJ5OkiOgvOxX6vXoEeTohIQU" />
-<!-- / The SEO Framework by Sybre Waaijer | 2.23ms meta | 0.67ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 2.32ms meta | 0.52ms boot -->
 
 <link rel='dns-prefetch' href='//use.typekit.net' />
 <link rel='dns-prefetch' href='//s.w.org' />
