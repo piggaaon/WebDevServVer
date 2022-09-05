@@ -57,12 +57,12 @@ Below are the variables with the installed and latest version for each server an
 	Apache Installed Version     : $installed_apache
 	Apache Latest Version        : $latest_apache
 ```
-#Scripting Languages(s):
+## Scripting Languages(s):
 ```
   	PHP Installed Version        : $installed_php
 	PHP Latest Version           : $latest_php
 ```
-#Database(s):
+### Database(s):
 ```
 	MySQL Username               : $mysql_user
 	MySQL Password               : $mysql_pass
