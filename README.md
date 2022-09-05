@@ -40,9 +40,12 @@ added to your css to define the link colors (Default: red or #ff0000):
 4. See the list below of server information variables.
 NOTE: These variables could change overtime as updates are made to script(s), 
 if you get any error about variable could not be found, check the list again.
+
 Example(s):
+```
 	<?php echo $installed_apache; ?>
 	<?php echo $latest_apache; ?>
+```
 
 ------------
 Below are the variables with the installed and latest version for each server and add-on scripting language (Version # for Linux come from Version # collected for Windows; Linux version will be close to the Windows Version #).
