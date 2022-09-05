@@ -52,7 +52,7 @@ Below are the variables with the installed and latest version for each server an
 
 ------------
 
-#WebServer(s):
+# WebServer(s):
 ```
 	Apache Installed Version     : $installed_apache
 	Apache Latest Version        : $latest_apache
