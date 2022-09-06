@@ -1,7 +1,7 @@
 <?php
 /* Set where to get latest Version Information  
 * 0 = For WebDevServVer development use only, this option will use raw data folder as source
-* 1 = Get WebDevServVer.xml from GitHub
+* 1 = Get WebDevServVer.xml from GitHub <--Currently does not work, do not have process to create XMl and upload to GitHub.
 * 2 = Get Version information from Apache Lounge,PHP.net,MySQL and create WebDevServVer.xml (default)
 */
   $getverinfo=2;
