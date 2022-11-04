@@ -168,28 +168,38 @@
         //Web - https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.6.9&os=windows&cpu=x86_64&pkg=zip
         //File - https://archive.mariadb.org/mariadb-10.6.9/winx64-packages/
         //$latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$WebDevServVerarr['DB']['MARIADB']['V109_LATEST']."/winx64-packages/";
-        
-      foreach($WebDevServVerarr['DB']['MARIADB'] as $itembld){
-        $itemlst=trim($itembld);
-        $installed_dbx=explode(" ",$installed_db);
-        $itemins=trim($installed_dbx[1]);
-        //echo $itemlst."|".$itemins."<br />";
-        if ($itemins==$itemlst){
-          $installed_db_bld=trim($itemins);
-          //echo $itemlst."|".$itemins."|".$installed_db_bld;
+        $latemdbverarr=array();
+        foreach($WebDevServVerarr['DB']['MARIADB'] as $itembld){
+          /* Installed Latest MariaDB Version */
+            //echo $installed_db."<br />";
+            $installed_dbxa=explode(" ",$installed_db);
+            $installed_dbxb=explode(".",$installed_dbxa[1]);
+            $itemins=trim($installed_dbxb[0]).".".trim($installed_dbxb[1]);
+          /* Latest Latest MariaDB Version */
+            //$itemlstxa=explode(" ",trim($itembld));
+            $itemlstxb=explode(".",$itembld);
+            $itemlst=trim($itemlstxb[0]).".".trim($itemlstxb[1]);
+          //echo $itemlst."|".$itemins."<br />";
+          if($itemins==$itemlst){
+            //echo "$itemins=$itemlst<br />";
+            if($installed_dbxb[2]<$itemlstxb[2]){
+              //echo "$installed_dbxb[2]<$itemlstxb[2]<br />";
+              $latmariadbvercomp=$itemlstxb[0].$itemlstxb[1];
+              $latemdbverarr[0]="MariaDB ".$WebDevServVerarr['DB']['MARIADB']["V".$latmariadbvercomp."_LATEST"];
+              $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$WebDevServVerarr['DB']['MARIADB']["V".$latmariadbvercomp."_LATEST"]."/winx64-packages/";
+              //echo $latemdbverarr[0]."|".$latemdbverarr[1]."<br />";
+            }else{
+              echo "$installed_dbxb[2]=$itemlstxb[2]<br />";
+              $latemdbverarr[0]="MariaDB ".trim($installed_dbxb[0]).".".trim($installed_dbxb[1]).".".trim($installed_dbxb[2]);
+              //echo $latemdbverarr[0]."<br />";
+            }
+          }
         }
-      }
-      if(!empty($installed_db_bld)){
-        $latemdbverx=explode(".",$installed_db_bld);
-        $latmariadbvercomp=$latemdbverx[0].$latemdbverx[1];
-        $latemdbverarr[0]="MariaDB ".$WebDevServVerarr['DB']['MARIADB']["V".$latmariadbvercomp."_LATEST"];
-        $latemdbverarr[1]="https://archive.mariadb.org/mariadb-".$WebDevServVerarr['DB']['MARIADB']['V109_LATEST']."/winx64-packages/";
-      }else{
-        $latemdbverarr[0]="?.?.?";
-        $latemdbverarr[1]=$WebDevServVerarr['DATA_URL']['MARIADB_URL'];
-      }
-        
-        
+        //$latemdbverarr[0]=NULL;
+        if(empty($latemdbverarr[0])){
+          $latemdbverarr[0]="?.?.?";
+          $latemdbverarr[1]=$WebDevServVerarr['DATA_URL']['MARIADB_URL'];
+        }
         
         return $latemdbverarr;
       }
@@ -197,7 +207,8 @@
     }
     
   /* Compare Latest to Installed MySQl Version */
-    if (strpos($installed_db,"$latemysqlver[0]") !== false){
+    //echo "$installed_db=$latemysqlver[0]<br />";
+    if (strpos($installed_db,$latemysqlver[0]) !== false){
       $latest_db=$latemysqlver[0];
     }else{
       $latest_db="<a class=\"USBWSVerNew\" href=\"".$latemysqlver[1]."\" target=\"_blank\">".$latemysqlver[0]."</a>";
